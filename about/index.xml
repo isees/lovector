@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About on LOVECTOR</title>
-    <link>/about/</link>
+    <link>https://isees.github.io/about/</link>
     <description>Recent content in About on LOVECTOR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 22 Feb 2018 14:02:37 +0200</lastBuildDate>
     
-	<atom:link href="/about/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://isees.github.io/about/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
