@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on LOVECTOR</title>
-    <link>https://isees.github.io/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on LOVECTOR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 23 Feb 2018 00:46:22 +0800</lastBuildDate>
     
-	<atom:link href="https://isees.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>2018</title>
-      <link>https://isees.github.io/tags/2018/</link>
+      <link>/tags/2018/</link>
       <pubDate>Fri, 23 Feb 2018 00:46:22 +0800</pubDate>
       
-      <guid>https://isees.github.io/tags/2018/</guid>
+      <guid>/tags/2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Begin</title>
-      <link>https://isees.github.io/tags/begin/</link>
+      <link>/tags/begin/</link>
       <pubDate>Fri, 23 Feb 2018 00:46:22 +0800</pubDate>
       
-      <guid>https://isees.github.io/tags/begin/</guid>
+      <guid>/tags/begin/</guid>
       <description></description>
     </item>
     
