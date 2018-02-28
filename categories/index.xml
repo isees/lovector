@@ -5,7 +5,8 @@
     <link>https://isees.github.io/categories/</link>
     <description>Recent content in Categories on LOVECTOR</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <managingEditor>0vers00n4u@gmail.com (isees)</managingEditor>
+    <webMaster>0vers00n4u@gmail.com (isees)</webMaster>
     
 	<atom:link href="https://isees.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +15,7 @@
       <title>Doc</title>
       <link>https://isees.github.io/categories/doc/</link>
       <pubDate>Wed, 28 Feb 2018 15:50:07 +0800</pubDate>
-      
+      <author>0vers00n4u@gmail.com (isees)</author>
       <guid>https://isees.github.io/categories/doc/</guid>
       <description></description>
     </item>
@@ -23,7 +24,7 @@
       <title>杂</title>
       <link>https://isees.github.io/categories/%E6%9D%82/</link>
       <pubDate>Fri, 23 Feb 2018 00:46:22 +0800</pubDate>
-      
+      <author>0vers00n4u@gmail.com (isees)</author>
       <guid>https://isees.github.io/categories/%E6%9D%82/</guid>
       <description></description>
     </item>

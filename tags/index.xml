@@ -5,7 +5,8 @@
     <link>https://isees.github.io/tags/</link>
     <description>Recent content in Tags on LOVECTOR</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <managingEditor>0vers00n4u@gmail.com (isees)</managingEditor>
+    <webMaster>0vers00n4u@gmail.com (isees)</webMaster>
     <lastBuildDate>Fri, 23 Feb 2018 00:46:22 +0800</lastBuildDate>
     
 	<atom:link href="https://isees.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
@@ -15,7 +16,7 @@
       <title>2018</title>
       <link>https://isees.github.io/tags/2018/</link>
       <pubDate>Fri, 23 Feb 2018 00:46:22 +0800</pubDate>
-      
+      <author>0vers00n4u@gmail.com (isees)</author>
       <guid>https://isees.github.io/tags/2018/</guid>
       <description></description>
     </item>
@@ -24,7 +25,7 @@
       <title>Begin</title>
       <link>https://isees.github.io/tags/begin/</link>
       <pubDate>Fri, 23 Feb 2018 00:46:22 +0800</pubDate>
-      
+      <author>0vers00n4u@gmail.com (isees)</author>
       <guid>https://isees.github.io/tags/begin/</guid>
       <description></description>
     </item>
@@ -33,7 +34,7 @@
       <title>Fork</title>
       <link>https://isees.github.io/tags/fork/</link>
       <pubDate>Wed, 28 Feb 2018 15:50:07 +0800</pubDate>
-      
+      <author>0vers00n4u@gmail.com (isees)</author>
       <guid>https://isees.github.io/tags/fork/</guid>
       <description></description>
     </item>
@@ -42,7 +43,7 @@
       <title>Github</title>
       <link>https://isees.github.io/tags/github/</link>
       <pubDate>Wed, 28 Feb 2018 15:50:07 +0800</pubDate>
-      
+      <author>0vers00n4u@gmail.com (isees)</author>
       <guid>https://isees.github.io/tags/github/</guid>
       <description></description>
     </item>

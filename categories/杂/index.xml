@@ -5,7 +5,8 @@
     <link>https://isees.github.io/categories/%E6%9D%82/</link>
     <description>Recent content in 杂 on LOVECTOR</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <managingEditor>0vers00n4u@gmail.com (isees)</managingEditor>
+    <webMaster>0vers00n4u@gmail.com (isees)</webMaster>
     <lastBuildDate>Fri, 23 Feb 2018 00:46:22 +0800</lastBuildDate>
     
 	<atom:link href="https://isees.github.io/categories/%E6%9D%82/index.xml" rel="self" type="application/rss+xml" />
@@ -13,11 +14,12 @@
     
     <item>
       <title>!H</title>
-      <link>https://isees.github.io/posts/hi/</link>
+      <link>https://isees.github.io/post/hi/</link>
       <pubDate>Fri, 23 Feb 2018 00:46:22 +0800</pubDate>
-      
-      <guid>https://isees.github.io/posts/hi/</guid>
-      <description>“Those who cannot change their minds cannot change anything.” ― George Bernard Shaw 想用一种新的方式来记录2018. So this is it :)</description>
+      <author>0vers00n4u@gmail.com (isees)</author>
+      <guid>https://isees.github.io/post/hi/</guid>
+      <description>“Those who cannot change their minds cannot change anything.” ― George Bernard Shaw 想用一种新的方式来记录2018.
+So this is it :)</description>
     </item>
     
   </channel>
