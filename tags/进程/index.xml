@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>进程 on LOVECTOR</title>
+    <link>https://isees.github.io/tags/%E8%BF%9B%E7%A8%8B/</link>
+    <description>Recent content in 进程 on LOVECTOR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>0vers00n4u@gmail.com (isees)</managingEditor>
+    <webMaster>0vers00n4u@gmail.com (isees)</webMaster>
+    <lastBuildDate>Thu, 01 Mar 2018 04:11:50 +0800</lastBuildDate>
+    
+	<atom:link href="https://isees.github.io/tags/%E8%BF%9B%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Linux进程与端口相互查询</title>
+      <link>https://isees.github.io/post/linux%E4%B8%8B%E7%9B%B8%E4%BA%92%E6%9F%A5%E6%9F%A5%E8%AF%A2%E7%9A%84%E6%96%B9%E5%BC%8F/</link>
+      <pubDate>Thu, 01 Mar 2018 04:11:50 +0800</pubDate>
+      <author>0vers00n4u@gmail.com (isees)</author>
+      <guid>https://isees.github.io/post/linux%E4%B8%8B%E7%9B%B8%E4%BA%92%E6%9F%A5%E6%9F%A5%E8%AF%A2%E7%9A%84%E6%96%B9%E5%BC%8F/</guid>
+      <description>通过进程查询端口 查询获取进程PID $ ps aux|grep aria2c isees 2704 1.4 0.1 100772 12912 ? Rs 03:36 0:39 aria2c -D isees 3132 0.0 0.0 15964 972 pts/0 S+ 04:20 0:00 grep --color=auto aria2c 通过进程PID查询获取占用端口 $ sudo netstat -nap|grep 2704 tcp 0 0 0.0.0.0:6881</description>
+    </item>
+    
+  </channel>
+</rss>
