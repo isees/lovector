@@ -351,7 +351,7 @@ footer .theme-by {
 
 .post-preview a {
   text-decoration: none;
-  color: #404040;
+  color: #505050;
 }
 
 .post-preview a:focus,
@@ -391,7 +391,7 @@ footer .theme-by {
 }
 .post-entry {
   width: 100%;
-  margin-top: 10px;
+  margin: 10px 0;
 }
 .post-image {
   float: right;
@@ -409,7 +409,7 @@ footer .theme-by {
   width: 192px;
 }
 .post-preview .post-read-more {
-  font-weight: 800;
+  font-weight: 700;
   float: right;
 }
 
