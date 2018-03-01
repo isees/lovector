@@ -49,7 +49,7 @@ p a {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 article > h1,
@@ -241,14 +241,13 @@ img {
 }
 
 .navbar-custom .avatar-container {
-    opacity: 1;
     position: absolute;
-    -webkit-transition: opacity 0.5s ease-in-out;
-    -moz-transition: opacity 0.5s ease-in-out;
-    transition: opacity 0.5s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
     left: 50%;
     width: 50px;
-    margin-top: -25px;
+    margin-top: -34px;
 }
 
 .navbar-custom .avatar-container .avatar-img-border {
@@ -268,7 +267,9 @@ img {
 }
 
 .navbar-custom.top-nav-short .avatar-container {
-    opacity: 0;
+    left: 130px;
+    width: 25px;
+    margin-top: -38px;
 }
 
 .navbar-custom.top-nav-expanded .avatar-container {
@@ -277,8 +278,7 @@ img {
 
 @media only screen and (min-width: 768px) {
     .navbar-custom .avatar-container {
-        width: 100px;
-        margin-top: -50px;
+        width: 70px;
     }
 
     .navbar-custom .avatar-container .avatar-img-border {
@@ -399,13 +399,13 @@ footer .theme-by {
 /* --- Post preview --- */
 
 .post-preview {
-    padding: 20px 0;
+    padding: 10px 0;
     border-bottom: 1px solid #eee;
 }
 
 @media only screen and (min-width: 768px) {
     .post-preview {
-        padding: 35px 0;
+        margin: 20px 0;
     }
 }
 
@@ -425,7 +425,7 @@ footer .theme-by {
 }
 
 .post-preview .post-title {
-    font-size: 30px;
+    font-size: 28px;
     margin-top: 0;
     margin-bottom: 16px;
 }
@@ -490,7 +490,7 @@ footer .theme-by {
 
 @media only screen and (min-width: 768px) {
     .post-preview .post-title {
-        font-size: 36px;
+        font-size: 28px;
     }
 }
 
@@ -543,7 +543,7 @@ footer .theme-by {
 /* --- Post and page headers --- */
 
 .intro-header {
-    margin: 80px 0 20px;
+    margin: 80px 0 0;
     position: relative;
 }
 
@@ -638,7 +638,7 @@ footer .theme-by {
 
 @media only screen and (min-width: 768px) {
     .intro-header {
-        margin-top: 130px;
+        margin-top: 138px;
     }
 
     .intro-header.big-img {
@@ -656,7 +656,7 @@ footer .theme-by {
     }
 
     .intro-header .post-heading h1 {
-        font-size: 48px;
+        font-size: 44px;
     }
 
     .intro-header.big-img .img-desc {
