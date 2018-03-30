@@ -5,19 +5,26 @@
     <link>https://isees.github.io/</link>
     <description>Recent content on LOVECTOR</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <managingEditor>0vers00n4u@gmail.com (isees)</managingEditor>
-    <webMaster>0vers00n4u@gmail.com (isees)</webMaster>
-    <lastBuildDate>Thu, 01 Mar 2018 04:11:50 +0800</lastBuildDate>
+    <copyright>&amp;copy; 2018. All rights reserved.</copyright>
+    <lastBuildDate>Thu, 22 Mar 2018 14:52:16 +0800</lastBuildDate>
     
 	<atom:link href="https://isees.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>~/.bashrc没有自动生效</title>
+      <link>https://isees.github.io/post/auto_activate_bashrc/</link>
+      <pubDate>Thu, 22 Mar 2018 14:52:16 +0800</pubDate>
+      
+      <guid>https://isees.github.io/post/auto_activate_bashrc/</guid>
+      <description>大多数系统的~/.bashrc只是作用于未激活非登录状态的shell. 然而打开一个新的shell时, 它通常是一个未激活已登录的状态, 由于已登</description>
+    </item>
+    
+    <item>
       <title>Linux进程与端口相互查询</title>
       <link>https://isees.github.io/post/linux%E8%BF%9B%E7%A8%8B%E4%B8%8E%E7%AB%AF%E5%8F%A3%E7%9B%B8%E4%BA%92%E6%9F%A5%E8%AF%A2/</link>
       <pubDate>Thu, 01 Mar 2018 04:11:50 +0800</pubDate>
-      <author>0vers00n4u@gmail.com (isees)</author>
+      
       <guid>https://isees.github.io/post/linux%E8%BF%9B%E7%A8%8B%E4%B8%8E%E7%AB%AF%E5%8F%A3%E7%9B%B8%E4%BA%92%E6%9F%A5%E8%AF%A2/</guid>
       <description>通过进程查询端口 查询获取进程PID $ ps aux|grep aria2c isees 2704 1.4 0.1 100772 12912 ? Rs 03:36 0:39 aria2c -D isees 3132 0.0 0.0 15964 972 pts/0 S+ 04:20 0:00 grep --color=auto aria2c 通过进程PID查询获取占用端口 $ sudo netstat -nap|grep 2704 tcp 0 0 0.0.0.0:6881</description>
     </item>
@@ -26,7 +33,7 @@
       <title>如何贡献项目</title>
       <link>https://isees.github.io/post/%E5%A6%82%E4%BD%95%E8%B4%A1%E7%8C%AE%E9%A1%B9%E7%9B%AE/</link>
       <pubDate>Wed, 28 Feb 2018 15:50:07 +0800</pubDate>
-      <author>0vers00n4u@gmail.com (isees)</author>
+      
       <guid>https://isees.github.io/post/%E5%A6%82%E4%BD%95%E8%B4%A1%E7%8C%AE%E9%A1%B9%E7%9B%AE/</guid>
       <description>在GitHub上fork到自己的仓库, 如 isees/scrapy , 然后clone到本地, 并设置用户信息. $ git clone git@github.com:isees/scrapy.git $ cd scrapy 领取或创建新的Issue, 如issue 3146, 添加</description>
     </item>
@@ -35,9 +42,20 @@
       <title>!H</title>
       <link>https://isees.github.io/post/hi/</link>
       <pubDate>Fri, 23 Feb 2018 00:46:22 +0800</pubDate>
-      <author>0vers00n4u@gmail.com (isees)</author>
+      
       <guid>https://isees.github.io/post/hi/</guid>
       <description>“Those who cannot change their minds cannot change anything.” ― George Bernard Shaw 想用一种新的方式来记录2018. So this is it :)</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://isees.github.io/about/</link>
+      <pubDate>Thu, 22 Feb 2018 14:02:37 +0200</pubDate>
+      
+      <guid>https://isees.github.io/about/</guid>
+      <description>“Those who cannot change their minds cannot change anything.”
+― George Bernard Shaw
+ email: 0vers00n4u@gmail.com  </description>
     </item>
     
   </channel>
