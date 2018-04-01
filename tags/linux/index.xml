@@ -6,10 +6,19 @@
     <description>Recent content in Linux on LOVECTOR</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2018. All rights reserved.</copyright>
-    <lastBuildDate>Thu, 01 Mar 2018 04:11:50 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 01 Apr 2018 19:19:23 +0800</lastBuildDate>
     
 	<atom:link href="https://isees.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>如何在ubuntu系统启动时执行脚本/命令?</title>
+      <link>https://isees.github.io/post/how_to_run_scripts_on_start_up/</link>
+      <pubDate>Sun, 01 Apr 2018 19:19:23 +0800</pubDate>
+      
+      <guid>https://isees.github.io/post/how_to_run_scripts_on_start_up/</guid>
+      <description>登录终端时运行 如果需要在终端登录时自动运行脚本, 可以在~/.bash_login文件中添加命令. 14.04或后续版本 将以下命令保存到xxx.</description>
+    </item>
     
     <item>
       <title>Linux进程与端口相互查询</title>
