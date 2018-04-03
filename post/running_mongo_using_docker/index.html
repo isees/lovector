@@ -212,7 +212,7 @@
 
   <div>
     <i class="fa fa-calendar fa-fw"></i>
-    <time>04 Apr 2018, 05:02</time>
+    <time>04 Apr 2018, 05:11</time>
   </div>
 
   
@@ -227,7 +227,9 @@
     
       <a class="post-taxonomy-tag" href="https://isees.github.io/tags/mongodb">mongodb</a>&nbsp;&#47;
     
-      <a class="post-taxonomy-tag" href="https://isees.github.io/tags/docker">docker</a>
+      <a class="post-taxonomy-tag" href="https://isees.github.io/tags/docker">docker</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://isees.github.io/tags/linux">linux</a>
     
   </div>
   
@@ -390,6 +392,14 @@ ps -ef | grep mongo
 <h4 id="删除">删除</h4>
 
 <pre><code class="language-bash">$ docker rm some-mongo
+</code></pre>
+
+<h4 id="开放端口">开放端口</h4>
+
+<pre><code class="language-bash"># Ubuntu 12.04 or later
+$ sudo ufw allow 27017
+$ sudo ufw reload
+Firewall reloaded
 </code></pre>
 
 
