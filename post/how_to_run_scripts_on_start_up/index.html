@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="generator" content="Hugo 0.36.1" />
 
-  <title>如何在ubuntu系统启动时执行脚本/命令? &middot; LOVECTOR</title>
+  <title>如何在linux系统启动时执行脚本/命令? &middot; LOVECTOR</title>
 
   
   
@@ -203,7 +203,7 @@
 
 
 <div class="header">
-  <h1>如何在ubuntu系统启动时执行脚本/命令?</h1>
+  <h1>如何在linux系统启动时执行脚本/命令?</h1>
   <h2></h2>
 </div>
 <div class="content">
@@ -225,6 +225,8 @@
   <div>
     <i class="fa fa-tags fa-fw"></i>
     
+      <a class="post-taxonomy-tag" href="https://isees.github.io/tags/centos">centos</a>&nbsp;&#47;
+    
       <a class="post-taxonomy-tag" href="https://isees.github.io/tags/ubuntu">ubuntu</a>&nbsp;&#47;
     
       <a class="post-taxonomy-tag" href="https://isees.github.io/tags/linux">linux</a>
@@ -241,7 +243,7 @@
 
 <p>如果需要在终端登录时自动运行脚本, 可以在<code>~/.bash_login</code>文件中添加命令.</p>
 
-<h2 id="14-04或后续版本">14.04或后续版本</h2>
+<h2 id="ubuntu-14-04或后续版本">Ubuntu 14.04或后续版本</h2>
 
 <p>将以下命令保存到<code>xxx.conf</code>文件中.</p>
 
@@ -257,6 +259,15 @@ exec /path/to/command
 <h3 id="以当前用户在登录时执行">以当前用户在登录时执行</h3>
 
 <p>将<code>xxx.conf</code>保存到<code>~/.config/upstart/</code>目录下.</p>
+
+<h2 id="centos-ubuntu">Centos / Ubuntu</h2>
+
+<p>直接编辑<code>/etc/rc.local</code>并添加命令/脚本.</p>
+
+<p>例:</p>
+
+<pre><code>echo &quot;/etc/init.d/activate.sh&quot; &gt;&gt; /etc/rc.local
+</code></pre>
 
 
   

@@ -12,12 +12,12 @@
     
     
     <item>
-      <title>如何在ubuntu系统启动时执行脚本/命令?</title>
+      <title>如何在linux系统启动时执行脚本/命令?</title>
       <link>https://isees.github.io/post/how_to_run_scripts_on_start_up/</link>
       <pubDate>Sun, 01 Apr 2018 19:19:23 +0800</pubDate>
       
       <guid>https://isees.github.io/post/how_to_run_scripts_on_start_up/</guid>
-      <description>登录终端时运行 如果需要在终端登录时自动运行脚本, 可以在~/.bash_login文件中添加命令. 14.04或后续版本 将以下命令保存到xxx.</description>
+      <description>登录终端时运行 如果需要在终端登录时自动运行脚本, 可以在~/.bash_login文件中添加命令. Ubuntu 14.04或后续版本 将以下命令保存到xxx</description>
     </item>
     
     <item>
