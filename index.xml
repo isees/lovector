@@ -6,10 +6,19 @@
     <description>Recent content on LOVECTOR</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2018. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 15 Apr 2018 19:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 06 May 2018 20:28:00 +0800</lastBuildDate>
     
 	<atom:link href="https://isees.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>UNIX脚本入门</title>
+      <link>https://isees.github.io/post/learning_unix_script/</link>
+      <pubDate>Sun, 06 May 2018 20:28:00 +0800</pubDate>
+      
+      <guid>https://isees.github.io/post/learning_unix_script/</guid>
+      <description>学习一门新的语言可以先从基本逻辑语法下手, 如 if, else, for, while, switch. 可以从以下示例代码中了解基本语法结构: #!/bin/bash echo &#39;Hi there :)&#39; for file in * do if [ -f &amp;quot;$file&amp;quot; ] then echo &amp;quot;FILE $file&amp;quot; else echo &amp;quot;DIR $file&amp;quot; fi</description>
+    </item>
     
     <item>
       <title>手游圈常用术语</title>

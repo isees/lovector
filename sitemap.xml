@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://isees.github.io/post/learning_unix_script/</loc>
+    <lastmod>2018-05-06T20:28:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://isees.github.io/post/android_game_terms/</loc>
     <lastmod>2018-04-15T19:00:00+08:00</lastmod>
   </url>
@@ -61,6 +66,12 @@
   </url>
   
   <url>
+    <loc>https://isees.github.io/tags/bash/</loc>
+    <lastmod>2018-05-06T20:28:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://isees.github.io/tags/begin/</loc>
     <lastmod>2018-02-23T00:46:22+08:00</lastmod>
     <priority>0</priority>
@@ -92,7 +103,7 @@
   
   <url>
     <loc>https://isees.github.io/</loc>
-    <lastmod>2018-04-15T19:00:00+08:00</lastmod>
+    <lastmod>2018-05-06T20:28:00+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -110,7 +121,13 @@
   
   <url>
     <loc>https://isees.github.io/post/</loc>
-    <lastmod>2018-04-15T19:00:00+08:00</lastmod>
+    <lastmod>2018-05-06T20:28:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://isees.github.io/tags/script/</loc>
+    <lastmod>2018-05-06T20:28:00+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -134,6 +151,12 @@
   <url>
     <loc>https://isees.github.io/tags/ubuntu/</loc>
     <lastmod>2018-04-01T19:19:23+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://isees.github.io/tags/unix/</loc>
+    <lastmod>2018-05-06T20:28:00+08:00</lastmod>
     <priority>0</priority>
   </url>
   

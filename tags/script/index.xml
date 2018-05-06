@@ -17,7 +17,7 @@
       <pubDate>Sun, 06 May 2018 20:28:00 +0800</pubDate>
       
       <guid>https://isees.github.io/post/learning_unix_script/</guid>
-      <description>学习一门新的语言可以先从基本逻辑语法下手, 如 if, else, for, while. 可以从以下示例代码中了解基本语法结构: #!/bin/bash echo &#39;hello Bain :)&#39; for file in * do if [ -f &amp;quot;$file&amp;quot; ] then echo &amp;quot;$file&amp;quot; fi done while [ &amp;quot;dontstop&amp;quot; ] do</description>
+      <description>学习一门新的语言可以先从基本逻辑语法下手, 如 if, else, for, while, switch. 可以从以下示例代码中了解基本语法结构: #!/bin/bash echo &#39;Hi there :)&#39; for file in * do if [ -f &amp;quot;$file&amp;quot; ] then echo &amp;quot;FILE $file&amp;quot; else echo &amp;quot;DIR $file&amp;quot; fi</description>
     </item>
     
   </channel>

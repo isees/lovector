@@ -252,22 +252,24 @@
 
 </div>
 
-  <p>学习一门新的语言可以先从基本逻辑语法下手, 如 <code>if</code>, <code>else</code>, <code>for</code>, <code>while</code>.</p>
+  <p>学习一门新的语言可以先从基本逻辑语法下手, 如 <code>if</code>, <code>else</code>, <code>for</code>, <code>while</code>, <code>switch</code>.</p>
 
 <p>可以从以下示例代码中了解基本语法结构:</p>
 
 <pre><code class="language-bash">#!/bin/bash
-echo 'hello Bain :)'
+echo 'Hi there :)'
 
 for file in *
 do 
   if [ -f &quot;$file&quot; ]
   then
-    echo &quot;$file&quot; 
+    echo &quot;FILE $file&quot; 
+  else
+    echo &quot;DIR $file&quot;
   fi
 done
 
-while [ &quot;dontstop&quot; ]
+while [ &quot;loop&quot; ]
 do
   printf &quot;#&gt; &quot;
   read num
@@ -279,9 +281,11 @@ do
     *) echo 'The choice is not offering' ;;
   esac
 done
+
 </code></pre>
 
-<p>待续.</p>
+<p>可以看出类似于于 <code>if</code> 和 <code>while</code> 的循环结构, 内部逻辑都用 <code>do ... done</code> 包裹, 而 <code>if</code> 的第一层逻辑, 则需要增加 <code>then</code>
+来执行.</p>
 
 
   
