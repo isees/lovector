@@ -1,7 +1,7 @@
 +++
 title = "How to create a network share via Samba via CLI"
 date = "2018-10-15T23:56:23+08:00"
-draft = true
+draft = false
 tags = ['samba', 'linux']
 topics = []
 description = ""
