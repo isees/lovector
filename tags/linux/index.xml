@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on LOVECTOR</title>
+    <link>https://isees.github.io/tags/linux/</link>
+    <description>Recent content in Linux on LOVECTOR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; 2018. All rights reserved.</copyright>
+    <lastBuildDate>Tue, 16 Oct 2018 00:12:53 +0800</lastBuildDate>
+    
+	<atom:link href="https://isees.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Detect and mount devices</title>
+      <link>https://isees.github.io/post/detect_and_mount_devices/</link>
+      <pubDate>Tue, 16 Oct 2018 00:12:53 +0800</pubDate>
+      
+      <guid>https://isees.github.io/post/detect_and_mount_devices/</guid>
+      <description> 1. Check the blockdevices and the file systems that are assigned to those block devices. sudo lshw  2. What kind of device? sudo lshw|less  3. Mounting the USB-stick sudo mkdir /media/usbstick sudo mount /dev/sdf2 /media/usbstick  4. Did it work? lsblk  </description>
+    </item>
+    
+    <item>
+      <title>How to create a network share via Samba via CLI</title>
+      <link>https://isees.github.io/post/samba_folder_share/</link>
+      <pubDate>Mon, 15 Oct 2018 23:56:23 +0800</pubDate>
+      
+      <guid>https://isees.github.io/post/samba_folder_share/</guid>
+      <description>1. Install Samba sudo apt-get update sudo apt-get install samba  2. Set a password for your user in Samba sudo smbpasswd -a &amp;lt;user_name&amp;gt;  3. Create a directory to be shared mkdir /home/&amp;lt;user_name&amp;gt;/&amp;lt;folder_name&amp;gt;  4. Make a safe backup copy of the original smb.conf file to your home folder, in case you make an error sudo cp /etc/samba/smb.conf ~  5. Edit the file &amp;ldquo;/etc/samba/smb.conf&amp;rdquo; sudo vim /etc/samba/smb.conf  6.</description>
+    </item>
+    
+    <item>
+      <title>通过Docker运行MongoDB</title>
+      <link>https://isees.github.io/post/running_mongo_using_docker/</link>
+      <pubDate>Wed, 04 Apr 2018 05:11:11 +0800</pubDate>
+      
+      <guid>https://isees.github.io/post/running_mongo_using_docker/</guid>
+      <description>运行 启动mongo实例 $ docker run --name some-mongo -d mongo 连接测试 $ docker run -it --link some-mongo:mongo --rm mongo sh -c &#39;exec mongo &amp;quot;$MONGO_PORT_27017_TCP_ADDR:$MONGO_PORT_27017_TCP_PORT/test&amp;quot;&#39; MongoDB shell version v3.6.3 connecting to: mongodb://172.17.0.2:27017/test MongoDB server version: 3.6.3 Welcome to the MongoDB shell. For interactive help, type &amp;quot;help&amp;quot;. For more comprehensive documentation, see http://docs.mongodb.org/ Questions? Try the support group http://groups.google.com/group/mongodb-user Server has</description>
+    </item>
+    
+    <item>
+      <title>如何在linux系统启动时执行脚本/命令?</title>
+      <link>https://isees.github.io/post/how_to_run_scripts_on_start_up/</link>
+      <pubDate>Sun, 01 Apr 2018 19:19:23 +0800</pubDate>
+      
+      <guid>https://isees.github.io/post/how_to_run_scripts_on_start_up/</guid>
+      <description>登录终端时运行 如果需要在终端登录时自动运行脚本, 可以在~/.bash_login文件中添加命令. Ubuntu 14.04或后续版本 将以下命令保存到xxx</description>
+    </item>
+    
+    <item>
+      <title>Linux进程与端口相互查询</title>
+      <link>https://isees.github.io/post/linux%E8%BF%9B%E7%A8%8B%E4%B8%8E%E7%AB%AF%E5%8F%A3%E7%9B%B8%E4%BA%92%E6%9F%A5%E8%AF%A2/</link>
+      <pubDate>Thu, 01 Mar 2018 04:11:50 +0800</pubDate>
+      
+      <guid>https://isees.github.io/post/linux%E8%BF%9B%E7%A8%8B%E4%B8%8E%E7%AB%AF%E5%8F%A3%E7%9B%B8%E4%BA%92%E6%9F%A5%E8%AF%A2/</guid>
+      <description>通过进程查询端口 查询获取进程PID $ ps aux|grep aria2c isees 2704 1.4 0.1 100772 12912 ? Rs 03:36 0:39 aria2c -D isees 3132 0.0 0.0 15964 972 pts/0 S+ 04:20 0:00 grep --color=auto aria2c 通过进程PID查询获取占用端口 $ sudo netstat -nap|grep 2704 tcp 0 0 0.0.0.0:6881</description>
+    </item>
+    
+  </channel>
+</rss>
