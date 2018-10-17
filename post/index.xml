@@ -6,10 +6,19 @@
     <description>Recent content in Posts on LOVECTOR</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2018. All rights reserved.</copyright>
-    <lastBuildDate>Tue, 16 Oct 2018 00:12:53 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 18 Oct 2018 00:32:56 +0800</lastBuildDate>
     
 	<atom:link href="https://isees.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Linux Check Disk Space Command</title>
+      <link>https://isees.github.io/post/check_disk_space_command/</link>
+      <pubDate>Thu, 18 Oct 2018 00:32:56 +0800</pubDate>
+      
+      <guid>https://isees.github.io/post/check_disk_space_command/</guid>
+      <description>Linux command to check disk space  df command - Shows the amount of disk space used and available on Linux file systems. du command - Display the amount of disk space used by the specified files and for each subdirectory. btrfs fi df /device/ - Show disk space usage information for a btrfs based mount point/file system.  Read more</description>
+    </item>
     
     <item>
       <title>Detect and mount devices</title>
