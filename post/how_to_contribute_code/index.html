@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="generator" content="Hugo 0.40.3" />
 
-  <title>Linux进程与端口相互查询 &middot; LOVECTOR</title>
+  <title>如何贡献项目 &middot; LOVECTOR</title>
 
   
   
@@ -215,7 +215,7 @@
 
 
 <div class="header">
-  <h1>Linux进程与端口相互查询</h1>
+  <h1>如何贡献项目</h1>
   <h2></h2>
 </div>
 <div class="content">
@@ -224,7 +224,7 @@
 
   <div>
     <i class="fa fa-calendar fa-fw"></i>
-    <time>01 Mar 2018, 04:11</time>
+    <time>28 Feb 2018, 15:50</time>
   </div>
 
   
@@ -237,11 +237,9 @@
   <div>
     <i class="fa fa-tags fa-fw"></i>
     
-      <a class="post-taxonomy-tag" href="https://isees.github.io/tags/linux">linux</a>&nbsp;&#47;
+      <a class="post-taxonomy-tag" href="https://isees.github.io/tags/github">github</a>&nbsp;&#47;
     
-      <a class="post-taxonomy-tag" href="https://isees.github.io/tags/%E8%BF%9B%E7%A8%8B">进程</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://isees.github.io/tags/%E7%AB%AF%E5%8F%A3">端口</a>
+      <a class="post-taxonomy-tag" href="https://isees.github.io/tags/fork">fork</a>
     
   </div>
   
@@ -249,36 +247,29 @@
 
 </div>
 
-  
+  <p>在<a href="https://github.com/">GitHub</a>上<code>fork</code>到自己的仓库, 如 <a href="https://github.com/isees/scrapy">isees/scrapy</a> , 然后<code>clone</code>到本地,
+并设置用户信息.</p>
 
-<h2 id="通过进程查询端口">通过进程查询端口</h2>
-
-<h4 id="查询获取进程pid">查询获取进程PID</h4>
-
-<pre><code class="language-bash">$ ps aux|grep aria2c
-isees      2704  1.4  0.1 100772 12912 ?        Rs   03:36   0:39 aria2c -D
-isees      3132  0.0  0.0  15964   972 pts/0    S+   04:20   0:00 grep --color=auto aria2c
+<pre><code class="language-bash">$ git clone git@github.com:isees/scrapy.git
+$ cd scrapy
 </code></pre>
 
-<h4 id="通过进程pid查询获取占用端口">通过进程PID查询获取占用端口</h4>
+<p>领取或创建新的<a href="https://github.com/scrapy/scrapy/issues">Issue</a>, 如<a href="https://github.com/scrapy/scrapy/issues/3146">issue 3146</a>, 添加自己为 <code>Assignee</code>.
+修改代码后提交, 并推送到自己的仓库, 注意修改提交消息为对应<code>Issue</code>号和描述.</p>
 
-<pre><code class="language-bash">$ sudo netstat -nap|grep 2704
-tcp        0      0 0.0.0.0:6881            0.0.0.0:*               LISTEN      2704/aria2c     
-tcp        0      0 0.0.0.0:6800            0.0.0.0:*               LISTEN      2704/aria2c     
-tcp        0      0 192.168.100.9:58710     221.196.63.64:16881     ESTABLISHED 2704/aria2c     
-tcp        0      1 192.168.100.9:35126     192.168.1.13:14596      SYN_SENT    2704/aria2c     
-tcp        1      0 192.168.100.9:52874     51.15.3.74:6969         CLOSE_WAIT  2704/aria2c     
-tcp        0      0 192.168.100.9:49006     36.224.209.80:51413     ESTABLISHED 2704/aria2c     
-tcp        0     68 192.168.100.9:54336     197.27.109.133:14595    ESTABLISHED 2704/aria2c     
-tcp6       0      0 :::6881                 :::*                    LISTEN      2704/aria2c     
-tcp6       0      0 :::6800                 :::*                    LISTEN      2704/aria2c     
-udp        0      0 0.0.0.0:6881            0.0.0.0:*
+<pre><code class="language-bash"># Update the content
+$ git commit -a -s
+# In commit msg dialog, add content like &quot;Fix issue #3146: updated content&quot;
+$ git push
 </code></pre>
 
-<h2 id="通过端口查询进程">通过端口查询进程</h2>
+<p>在<a href="https://github.com/">GitHub</a>上提交<code>Pull Request</code>, 添加标签, 并邀请维护者进行<code>Review</code>.
+定期使用项目仓库内容更新自己仓库内容.</p>
 
-<pre><code class="language-bash">$ sudo netstat -nap|grep 58710
-tcp        0      0 192.168.100.9:58710     221.196.63.64:16881     ESTABLISHED 2704/aria2c
+<pre><code class="language-bash">$ git remote add upstream https://github.com/isees/scrapy
+$ git fetch upstream
+$ git rebase upstream/master
+$ git push -f origin master
 </code></pre>
 
 
@@ -286,13 +277,13 @@ tcp        0      0 192.168.100.9:58710     221.196.63.64:16881     ESTABLISHED 
 <div class="prev-next-post pure-g">
   <div class="pure-u-1-24" style="text-align: left;">
     
-    <a href="https://isees.github.io/post/how_to_contribute_code/"><i class="fa fa-chevron-left"></i></a>
+    <a href="https://isees.github.io/post/hi/"><i class="fa fa-chevron-left"></i></a>
     
   </div>
   <div class="pure-u-10-24">
     
     <nav class="prev">
-      <a href="https://isees.github.io/post/how_to_contribute_code/">如何贡献项目</a>
+      <a href="https://isees.github.io/post/hi/">!H</a>
     </nav>
     
   </div>
@@ -302,13 +293,13 @@ tcp        0      0 192.168.100.9:58710     221.196.63.64:16881     ESTABLISHED 
   <div class="pure-u-10-24">
     
     <nav class="next">
-      <a href="https://isees.github.io/post/auto_activate_bashrc/">~/.bashrc没有自动生效</a>
+      <a href="https://isees.github.io/post/linux%E8%BF%9B%E7%A8%8B%E4%B8%8E%E7%AB%AF%E5%8F%A3%E7%9B%B8%E4%BA%92%E6%9F%A5%E8%AF%A2/">Linux进程与端口相互查询</a>
     </nav>
     
   </div>
   <div class="pure-u-1-24" style="text-align: right;">
     
-    <a href="https://isees.github.io/post/auto_activate_bashrc/"><i class="fa fa-chevron-right"></i></a>
+    <a href="https://isees.github.io/post/linux%E8%BF%9B%E7%A8%8B%E4%B8%8E%E7%AB%AF%E5%8F%A3%E7%9B%B8%E4%BA%92%E6%9F%A5%E8%AF%A2/"><i class="fa fa-chevron-right"></i></a>
     
   </div>
 </div>
