@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="generator" content="Hugo 0.40.3" />
 
-  <title>Linux Check Disk Space Command &middot; LOVECTOR</title>
+  <title>Search &middot; LOVECTOR</title>
 
   
   
@@ -39,6 +39,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
  
+  
+  <link rel="alternate" type="application/rss+xml" title="LOVECTOR" href="https://isees.github.io/tags/search/index.xml" />
   
 
   
@@ -215,16 +217,20 @@
 
 
 <div class="header">
-  <h1>Linux Check Disk Space Command</h1>
-  <h2></h2>
+  <h1>Search</h1>
 </div>
-<div class="content">
 
-  <div class="post-meta">
+<div class="content">
+  
+    <article>
+  <header>
+    <h2><a href="https://isees.github.io/post/mv_after_find/">Mv after find</a></h2>
+
+    <div class="post-meta">
 
   <div>
     <i class="fa fa-calendar fa-fw"></i>
-    <time>18 Oct 2018, 00:32</time>
+    <time>21 Oct 2018, 17:27</time>
   </div>
 
   
@@ -240,9 +246,9 @@
   <div>
     <i class="fa fa-tags fa-fw"></i>
     
-      <a class="post-taxonomy-tag" href="https://isees.github.io/tags/disk">disk</a>&nbsp;&#47;
+      <a class="post-taxonomy-tag" href="https://isees.github.io/tags/linux">linux</a>&nbsp;&#47;
     
-      <a class="post-taxonomy-tag" href="https://isees.github.io/tags/linux">linux</a>
+      <a class="post-taxonomy-tag" href="https://isees.github.io/tags/search">search</a>
     
   </div>
   
@@ -250,72 +256,21 @@
 
 </div>
 
-  
+  </header>
 
-<h2 id="linux-command-to-check-disk-space">Linux command to check disk space</h2>
-
-<ul>
-<li>df command - Shows the amount of disk space used and available on Linux file systems.</li>
-<li>du command - Display the amount of disk space used by the specified files and for each subdirectory.</li>
-<li>btrfs fi df /device/ - Show disk space usage information for a btrfs based mount point/file system.</li>
-</ul>
-
-<p><a href="https://www.cyberciti.biz/faq/linux-check-disk-space-command/">Read more</a></p>
-
+  <p>
+  find path_A -name '*AAA*' -exec mv -t path_B {} +  That will use find&rsquo;s -exec option which replaces the {} with each find result in turn and runs the command you give it. As explained in man find:
+-exec command ; Execute command; true if 0 status is returned. All following arguments to find are taken to be arguments to the command until an argument consisting of ';' is encountered.
+  </p>
 
   
-<div class="prev-next-post pure-g">
-  <div class="pure-u-1-24" style="text-align: left;">
-    
-    <a href="https://isees.github.io/post/detect_and_mount_devices/"><i class="fa fa-chevron-left"></i></a>
-    
-  </div>
-  <div class="pure-u-10-24">
-    
-    <nav class="prev">
-      <a href="https://isees.github.io/post/detect_and_mount_devices/">Detect and mount devices</a>
-    </nav>
-    
-  </div>
-  <div class="pure-u-2-24">
-    &nbsp;
-  </div>
-  <div class="pure-u-10-24">
-    
-    <nav class="next">
-      <a href="https://isees.github.io/post/mv_after_find/">Mv after find</a>
-    </nav>
-    
-  </div>
-  <div class="pure-u-1-24" style="text-align: right;">
-    
-    <a href="https://isees.github.io/post/mv_after_find/"><i class="fa fa-chevron-right"></i></a>
-    
-  </div>
-</div>
-
-
+  <footer>
+    <a href="https://isees.github.io/post/mv_after_find/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
 
   
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-
-(function() {
-    
-    
-    if (window.location.hostname == "localhost")
-        return;
-
-    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-    var disqus_shortname = 'lovector';
-    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-
-
 </div>
 
 </div>
@@ -340,4 +295,3 @@
 
 </body>
 </html>
-
