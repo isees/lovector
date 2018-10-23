@@ -225,6 +225,54 @@
   
     <article>
   <header>
+    <h2><a href="https://isees.github.io/post/connect_to_wifi_linux/">Connect to WiFi network through terminal</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>23 Oct 2018, 11:25</time>
+  </div>
+
+  
+
+  
+  
+  
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://isees.github.io/tags/linux">linux</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://isees.github.io/tags/wifi">wifi</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  0. check network interface card status ip addr ip link ip -s link  1. ip for all network interfaces, including setting up and down: ip link set wlan0 up ip link set wlan0 down ip help ip link help ip addr help  2. iw for wireless extensions (needs to be called as root): iw dev iw phy iw wlan0 scan iw wlan0 station dump iw help  3.
+  </p>
+
+  
+  <footer>
+    <a href="https://isees.github.io/post/connect_to_wifi_linux/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
     <h2><a href="https://isees.github.io/post/mv_after_find/">Mv after find</a></h2>
 
     <div class="post-meta">
@@ -642,53 +690,6 @@
   
   <footer>
     <a href="https://isees.github.io/post/auto_activate_bashrc/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
-  </footer>
-  
-</article>
-
-  
-    <article>
-  <header>
-    <h2><a href="https://isees.github.io/post/linux%E8%BF%9B%E7%A8%8B%E4%B8%8E%E7%AB%AF%E5%8F%A3%E7%9B%B8%E4%BA%92%E6%9F%A5%E8%AF%A2/">Linux进程与端口相互查询</a></h2>
-
-    <div class="post-meta">
-
-  <div>
-    <i class="fa fa-calendar fa-fw"></i>
-    <time>01 Mar 2018, 04:11</time>
-  </div>
-
-  
-
-  
-
-  
-  
-  
-  <div>
-    <i class="fa fa-tags fa-fw"></i>
-    
-      <a class="post-taxonomy-tag" href="https://isees.github.io/tags/linux">linux</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://isees.github.io/tags/%E8%BF%9B%E7%A8%8B">进程</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://isees.github.io/tags/%E7%AB%AF%E5%8F%A3">端口</a>
-    
-  </div>
-  
-  
-
-</div>
-
-  </header>
-
-  <p>
-  通过进程查询端口 查询获取进程PID $ ps aux|grep aria2c isees 2704 1.4 0.1 100772 12912 ? Rs 03:36 0:39 aria2c -D isees 3132 0.0 0.0 15964 972 pts/0 S+ 04:20 0:00 grep --color=auto aria2c 通过进程PID查询获取占用端口 $ sudo netstat -nap|grep 2704 tcp 0 0 0.0.0.0:6881
-  </p>
-
-  
-  <footer>
-    <a href="https://isees.github.io/post/linux%E8%BF%9B%E7%A8%8B%E4%B8%8E%E7%AB%AF%E5%8F%A3%E7%9B%B8%E4%BA%92%E6%9F%A5%E8%AF%A2/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
   </footer>
   
 </article>

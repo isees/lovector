@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wifi on LOVECTOR</title>
+    <link>https://isees.github.io/tags/wifi/</link>
+    <description>Recent content in Wifi on LOVECTOR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; 2018. All rights reserved.</copyright>
+    <lastBuildDate>Tue, 23 Oct 2018 11:25:01 +0800</lastBuildDate>
+    
+	<atom:link href="https://isees.github.io/tags/wifi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Connect to WiFi network through terminal</title>
+      <link>https://isees.github.io/post/connect_to_wifi_linux/</link>
+      <pubDate>Tue, 23 Oct 2018 11:25:01 +0800</pubDate>
+      
+      <guid>https://isees.github.io/post/connect_to_wifi_linux/</guid>
+      <description>0. check network interface card status ip addr ip link ip -s link  1. ip for all network interfaces, including setting up and down: ip link set wlan0 up ip link set wlan0 down ip help ip link help ip addr help  2. iw for wireless extensions (needs to be called as root): iw dev iw phy iw wlan0 scan iw wlan0 station dump iw help  3.</description>
+    </item>
+    
+  </channel>
+</rss>

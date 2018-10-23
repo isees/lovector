@@ -6,10 +6,19 @@
     <description>Recent content in Linux on LOVECTOR</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2018. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 21 Oct 2018 17:27:15 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 23 Oct 2018 11:25:01 +0800</lastBuildDate>
     
 	<atom:link href="https://isees.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Connect to WiFi network through terminal</title>
+      <link>https://isees.github.io/post/connect_to_wifi_linux/</link>
+      <pubDate>Tue, 23 Oct 2018 11:25:01 +0800</pubDate>
+      
+      <guid>https://isees.github.io/post/connect_to_wifi_linux/</guid>
+      <description>0. check network interface card status ip addr ip link ip -s link  1. ip for all network interfaces, including setting up and down: ip link set wlan0 up ip link set wlan0 down ip help ip link help ip addr help  2. iw for wireless extensions (needs to be called as root): iw dev iw phy iw wlan0 scan iw wlan0 station dump iw help  3.</description>
+    </item>
     
     <item>
       <title>Mv after find</title>

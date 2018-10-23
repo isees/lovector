@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="generator" content="Hugo 0.40.3" />
 
-  <title>Tags &middot; LOVECTOR</title>
+  <title>Connect to WiFi network through terminal &middot; LOVECTOR</title>
 
   
   
@@ -39,8 +39,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
  
-  
-  <link rel="alternate" type="application/rss+xml" title="LOVECTOR" href="https://isees.github.io/tags/index.xml" />
   
 
   
@@ -217,133 +215,128 @@
 
 
 <div class="header">
-  <h1>Tags</h1>
+  <h1>Connect to WiFi network through terminal</h1>
+  <h2></h2>
 </div>
 <div class="content">
-  <ul>
+
+  <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>23 Oct 2018, 11:25</time>
+  </div>
+
+  
+
   
   
-    <li>
-      <a href="linux">linux</a>
-      <span>&#40;8&#41;</span>
-    </li>
   
-    <li>
-      <a href=".bashrc">.bashrc</a>
-      <span>&#40;1&#41;</span>
-    </li>
   
-    <li>
-      <a href="2018">2018</a>
-      <span>&#40;1&#41;</span>
-    </li>
+
   
-    <li>
-      <a href="android">android</a>
-      <span>&#40;1&#41;</span>
-    </li>
   
-    <li>
-      <a href="bash">bash</a>
-      <span>&#40;1&#41;</span>
-    </li>
   
-    <li>
-      <a href="begin">begin</a>
-      <span>&#40;1&#41;</span>
-    </li>
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://isees.github.io/tags/linux">linux</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://isees.github.io/tags/wifi">wifi</a>
+    
+  </div>
   
-    <li>
-      <a href="centos">centos</a>
-      <span>&#40;1&#41;</span>
-    </li>
   
-    <li>
-      <a href="disk">disk</a>
-      <span>&#40;1&#41;</span>
-    </li>
+
+</div>
+
   
-    <li>
-      <a href="docker">docker</a>
-      <span>&#40;1&#41;</span>
-    </li>
+
+<h2 id="0-check-network-interface-card-status">0. check network interface card status</h2>
+
+<pre><code>ip addr
+ip link
+ip -s link
+</code></pre>
+
+<h2 id="1-ip-for-all-network-interfaces-including-setting-up-and-down">1. ip for all network interfaces, including setting up and down:</h2>
+
+<pre><code>ip link set wlan0 up
+ip link set wlan0 down
+ip help
+ip link help
+ip addr help
+</code></pre>
+
+<h2 id="2-iw-for-wireless-extensions-needs-to-be-called-as-root">2. iw for wireless extensions (needs to be called as root):</h2>
+
+<pre><code>iw dev
+iw phy
+iw wlan0 scan
+iw wlan0 station dump
+iw help
+</code></pre>
+
+<h2 id="3-reload-wifi">3. Reload WIFI</h2>
+
+<p>The -r flag explicitly releases the current lease, and once the lease has been released, the client exits. Open a terminal and type the command:</p>
+
+<pre><code>$ sudo dhclient -r
+</code></pre>
+
+<p>Now obtain fresh IP:</p>
+
+<pre><code>$ sudo dhclient 
+</code></pre>
+
+
   
-    <li>
-      <a href="fork">fork</a>
-      <span>&#40;1&#41;</span>
-    </li>
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
+    
+    <a href="https://isees.github.io/post/mv_after_find/"><i class="fa fa-chevron-left"></i></a>
+    
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="prev">
+      <a href="https://isees.github.io/post/mv_after_find/">Mv after find</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+  </div>
+</div>
+
+
+
   
-    <li>
-      <a href="github">github</a>
-      <span>&#40;1&#41;</span>
-    </li>
-  
-    <li>
-      <a href="mongodb">mongodb</a>
-      <span>&#40;1&#41;</span>
-    </li>
-  
-    <li>
-      <a href="mount">mount</a>
-      <span>&#40;1&#41;</span>
-    </li>
-  
-    <li>
-      <a href="samba">samba</a>
-      <span>&#40;1&#41;</span>
-    </li>
-  
-    <li>
-      <a href="script">script</a>
-      <span>&#40;1&#41;</span>
-    </li>
-  
-    <li>
-      <a href="sdk">sdk</a>
-      <span>&#40;1&#41;</span>
-    </li>
-  
-    <li>
-      <a href="search">search</a>
-      <span>&#40;1&#41;</span>
-    </li>
-  
-    <li>
-      <a href="ubuntu">ubuntu</a>
-      <span>&#40;1&#41;</span>
-    </li>
-  
-    <li>
-      <a href="unix">unix</a>
-      <span>&#40;1&#41;</span>
-    </li>
-  
-    <li>
-      <a href="wifi">wifi</a>
-      <span>&#40;1&#41;</span>
-    </li>
-  
-    <li>
-      <a href="x-os">x-os</a>
-      <span>&#40;1&#41;</span>
-    </li>
-  
-    <li>
-      <a href="%E6%89%8B%E6%B8%B8">手游</a>
-      <span>&#40;1&#41;</span>
-    </li>
-  
-    <li>
-      <a href="%E7%AB%AF%E5%8F%A3">端口</a>
-      <span>&#40;1&#41;</span>
-    </li>
-  
-    <li>
-      <a href="%E8%BF%9B%E7%A8%8B">进程</a>
-      <span>&#40;1&#41;</span>
-    </li>
-  
-  </ul>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+
+(function() {
+    
+    
+    if (window.location.hostname == "localhost")
+        return;
+
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    var disqus_shortname = 'lovector';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
 </div>
 
 </div>
@@ -368,3 +361,4 @@
 
 </body>
 </html>
+
