@@ -6,10 +6,19 @@
     <description>Recent content in Linux on LOVECTOR</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2018. All rights reserved.</copyright>
-    <lastBuildDate>Tue, 23 Oct 2018 11:25:01 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 01 Nov 2018 16:48:47 +0800</lastBuildDate>
     
 	<atom:link href="https://isees.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>zpool status: too many errors</title>
+      <link>https://isees.github.io/post/zpool_status_errors/</link>
+      <pubDate>Thu, 01 Nov 2018 16:48:47 +0800</pubDate>
+      
+      <guid>https://isees.github.io/post/zpool_status_errors/</guid>
+      <description> CHECK THE CABLE AND POWER CHECK THE STATUS OF THE SPECIFIC DISK smartctl -a /dev/sde  Clear zpool clear tank  SCRUB AT LEAST ONCE PER MONTH zpool scrub tank #stop scrubbing: zpool scrub -s tank  CHECK STATUS zpool status -v  </description>
+    </item>
     
     <item>
       <title>Connect to WiFi network through terminal</title>

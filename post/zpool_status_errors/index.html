@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="generator" content="Hugo 0.40.3" />
 
-  <title>Connect to WiFi network through terminal &middot; LOVECTOR</title>
+  <title>zpool status: too many errors &middot; LOVECTOR</title>
 
   
   
@@ -215,7 +215,7 @@
 
 
 <div class="header">
-  <h1>Connect to WiFi network through terminal</h1>
+  <h1>zpool status: too many errors</h1>
   <h2></h2>
 </div>
 <div class="content">
@@ -224,7 +224,7 @@
 
   <div>
     <i class="fa fa-calendar fa-fw"></i>
-    <time>23 Oct 2018, 11:25</time>
+    <time>01 Nov 2018, 16:48</time>
   </div>
 
   
@@ -242,7 +242,7 @@
     
       <a class="post-taxonomy-tag" href="https://isees.github.io/tags/linux">linux</a>&nbsp;&#47;
     
-      <a class="post-taxonomy-tag" href="https://isees.github.io/tags/wifi">wifi</a>
+      <a class="post-taxonomy-tag" href="https://isees.github.io/tags/zfs">zfs</a>
     
   </div>
   
@@ -252,41 +252,26 @@
 
   
 
-<h2 id="0-check-network-interface-card-status">0. check network interface card status</h2>
+<h2 id="check-the-cable-and-power">CHECK THE CABLE AND POWER</h2>
 
-<pre><code>ip addr
-ip link
-ip -s link
+<h2 id="check-the-status-of-the-specific-disk">CHECK THE STATUS OF THE SPECIFIC DISK</h2>
+
+<pre><code class="language-bash">smartctl -a /dev/sde
 </code></pre>
 
-<h2 id="1-ip-for-all-network-interfaces-including-setting-up-and-down">1. ip for all network interfaces, including setting up and down:</h2>
+<h2 id="clear">Clear</h2>
 
-<pre><code>ip link set wlan0 up
-ip link set wlan0 down
-ip help
-ip link help
-ip addr help
+<pre><code class="language-bash">zpool clear tank
 </code></pre>
 
-<h2 id="2-iw-for-wireless-extensions-needs-to-be-called-as-root">2. iw for wireless extensions (needs to be called as root):</h2>
+<h2 id="scrub-at-least-once-per-month">SCRUB AT LEAST ONCE PER MONTH</h2>
 
-<pre><code>iw dev
-iw phy
-iw wlan0 scan
-iw wlan0 station dump
-iw help
+<pre><code class="language-bash">zpool scrub tank #stop scrubbing: zpool scrub -s tank
 </code></pre>
 
-<h2 id="3-reload-wifi">3. Reload WIFI</h2>
+<h2 id="check-status">CHECK STATUS</h2>
 
-<p>The -r flag explicitly releases the current lease, and once the lease has been released, the client exits. Open a terminal and type the command:</p>
-
-<pre><code>$ sudo dhclient -r
-</code></pre>
-
-<p>Now obtain fresh IP:</p>
-
-<pre><code>$ sudo dhclient 
+<pre><code class="language-bash">zpool status -v
 </code></pre>
 
 
@@ -294,13 +279,13 @@ iw help
 <div class="prev-next-post pure-g">
   <div class="pure-u-1-24" style="text-align: left;">
     
-    <a href="https://isees.github.io/post/mv_after_find/"><i class="fa fa-chevron-left"></i></a>
+    <a href="https://isees.github.io/post/connect_to_wifi_linux/"><i class="fa fa-chevron-left"></i></a>
     
   </div>
   <div class="pure-u-10-24">
     
     <nav class="prev">
-      <a href="https://isees.github.io/post/mv_after_find/">Mv after find</a>
+      <a href="https://isees.github.io/post/connect_to_wifi_linux/">Connect to WiFi network through terminal</a>
     </nav>
     
   </div>
@@ -309,14 +294,8 @@ iw help
   </div>
   <div class="pure-u-10-24">
     
-    <nav class="next">
-      <a href="https://isees.github.io/post/zpool_status_errors/">zpool status: too many errors</a>
-    </nav>
-    
   </div>
   <div class="pure-u-1-24" style="text-align: right;">
-    
-    <a href="https://isees.github.io/post/zpool_status_errors/"><i class="fa fa-chevron-right"></i></a>
     
   </div>
 </div>
