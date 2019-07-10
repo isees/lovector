@@ -5,7 +5,7 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
-  <meta name="generator" content="Hugo 0.40.3" />
+  <meta name="generator" content="Hugo 0.53" />
 
   <title>Linux &middot; LOVECTOR</title>
 
@@ -221,6 +221,52 @@
 </div>
 
 <div class="content">
+  
+    <article>
+  <header>
+    <h2><a href="https://isees.github.io/post/connecting_to_server_with_ssh/">Connecting to server via ssh</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>10 Jul 2019, 21:20</time>
+  </div>
+
+  
+
+  
+  
+  
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://isees.github.io/tags/ssh">ssh</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://isees.github.io/tags/linux">linux</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://isees.github.io/tags/mac">mac</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+   1. Generate a Key Pair $ ssh-keygen -t rsa -b 4096  2. Upload your Public Key $ ssh-copy-id -i KEYNAME USERNAME@IP -p PORT  3. Connecting to server via ssh $ ssh -i KEYNAME -p 'PORT' 'USERNAME@IP'  References  https://www.linode.com/docs/security/authentication/use-public-key-authentication-with-ssh/  
+  </p>
+
+  
+</article>
+
   
     <article>
   <header>

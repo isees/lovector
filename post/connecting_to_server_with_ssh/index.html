@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="generator" content="Hugo 0.53" />
 
-  <title>X Os &middot; LOVECTOR</title>
+  <title>Connecting to server via ssh &middot; LOVECTOR</title>
 
   
   
@@ -39,8 +39,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
  
-  
-  <link rel="alternate" type="application/rss+xml" title="LOVECTOR" href="https://isees.github.io/tags/x-os/index.xml" />
   
 
   
@@ -217,24 +215,23 @@
 
 
 <div class="header">
-  <h1>X Os</h1>
+  <h1>Connecting to server via ssh</h1>
+  <h2></h2>
 </div>
-
 <div class="content">
-  
-    <article>
-  <header>
-    <h2><a href="https://isees.github.io/post/auto_activate_bashrc/">~/.bashrc没有自动生效</a></h2>
 
-    <div class="post-meta">
+  <div class="post-meta">
 
   <div>
     <i class="fa fa-calendar fa-fw"></i>
-    <time>22 Mar 2018, 14:52</time>
+    <time>10 Jul 2019, 21:20</time>
   </div>
 
   
 
+  
+  
+  
   
 
   
@@ -243,9 +240,11 @@
   <div>
     <i class="fa fa-tags fa-fw"></i>
     
-      <a class="post-taxonomy-tag" href="https://isees.github.io/tags/.bashrc">.bashrc</a>&nbsp;&#47;
+      <a class="post-taxonomy-tag" href="https://isees.github.io/tags/ssh">ssh</a>&nbsp;&#47;
     
-      <a class="post-taxonomy-tag" href="https://isees.github.io/tags/x-os">x os</a>
+      <a class="post-taxonomy-tag" href="https://isees.github.io/tags/linux">linux</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://isees.github.io/tags/mac">mac</a>
     
   </div>
   
@@ -253,20 +252,77 @@
 
 </div>
 
-  </header>
+  
 
-  <p>
-  大多数系统的~/.bashrc只是作用于未激活非登录状态的shell. 然而打开一个新的shell时, 它通常是一个未激活已登录的状态, 由于已登
-  </p>
+<h2 id="1-generate-a-key-pair">1. Generate a Key Pair</h2>
+
+<pre><code class="language-bash">$ ssh-keygen -t rsa -b 4096
+</code></pre>
+
+<h2 id="2-upload-your-public-key">2. Upload your Public Key</h2>
+
+<pre><code class="language-bash">$ ssh-copy-id -i KEYNAME USERNAME@IP -p PORT
+</code></pre>
+
+<h2 id="3-connecting-to-server-via-ssh">3. Connecting to server via ssh</h2>
+
+<pre><code class="language-bash">$ ssh -i KEYNAME -p 'PORT' 'USERNAME@IP'
+</code></pre>
+
+<h2 id="references">References</h2>
+
+<ul>
+<li><a href="https://www.linode.com/docs/security/authentication/use-public-key-authentication-with-ssh/">https://www.linode.com/docs/security/authentication/use-public-key-authentication-with-ssh/</a></li>
+</ul>
+
 
   
-  <footer>
-    <a href="https://isees.github.io/post/auto_activate_bashrc/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
-  </footer>
-  
-</article>
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
+    
+    <a href="https://isees.github.io/post/zpool_status_errors/"><i class="fa fa-chevron-left"></i></a>
+    
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="prev">
+      <a href="https://isees.github.io/post/zpool_status_errors/">zpool status: too many errors</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+  </div>
+</div>
+
+
 
   
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+
+(function() {
+    
+    
+    if (window.location.hostname == "localhost")
+        return;
+
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    var disqus_shortname = 'lovector';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
 </div>
 
 </div>
@@ -291,3 +347,4 @@
 
 </body>
 </html>
+

@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="generator" content="Hugo 0.53" />
 
-  <title>X Os &middot; LOVECTOR</title>
+  <title>Mac &middot; LOVECTOR</title>
 
   
   
@@ -40,7 +40,7 @@
 
  
   
-  <link rel="alternate" type="application/rss+xml" title="LOVECTOR" href="https://isees.github.io/tags/x-os/index.xml" />
+  <link rel="alternate" type="application/rss+xml" title="LOVECTOR" href="https://isees.github.io/tags/mac/index.xml" />
   
 
   
@@ -217,24 +217,27 @@
 
 
 <div class="header">
-  <h1>X Os</h1>
+  <h1>Mac</h1>
 </div>
 
 <div class="content">
   
     <article>
   <header>
-    <h2><a href="https://isees.github.io/post/auto_activate_bashrc/">~/.bashrc没有自动生效</a></h2>
+    <h2><a href="https://isees.github.io/post/connecting_to_server_with_ssh/">Connecting to server via ssh</a></h2>
 
     <div class="post-meta">
 
   <div>
     <i class="fa fa-calendar fa-fw"></i>
-    <time>22 Mar 2018, 14:52</time>
+    <time>10 Jul 2019, 21:20</time>
   </div>
 
   
 
+  
+  
+  
   
 
   
@@ -243,9 +246,11 @@
   <div>
     <i class="fa fa-tags fa-fw"></i>
     
-      <a class="post-taxonomy-tag" href="https://isees.github.io/tags/.bashrc">.bashrc</a>&nbsp;&#47;
+      <a class="post-taxonomy-tag" href="https://isees.github.io/tags/ssh">ssh</a>&nbsp;&#47;
     
-      <a class="post-taxonomy-tag" href="https://isees.github.io/tags/x-os">x os</a>
+      <a class="post-taxonomy-tag" href="https://isees.github.io/tags/linux">linux</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://isees.github.io/tags/mac">mac</a>
     
   </div>
   
@@ -256,13 +261,9 @@
   </header>
 
   <p>
-  大多数系统的~/.bashrc只是作用于未激活非登录状态的shell. 然而打开一个新的shell时, 它通常是一个未激活已登录的状态, 由于已登
+   1. Generate a Key Pair $ ssh-keygen -t rsa -b 4096  2. Upload your Public Key $ ssh-copy-id -i KEYNAME USERNAME@IP -p PORT  3. Connecting to server via ssh $ ssh -i KEYNAME -p 'PORT' 'USERNAME@IP'  References  https://www.linode.com/docs/security/authentication/use-public-key-authentication-with-ssh/  
   </p>
 
-  
-  <footer>
-    <a href="https://isees.github.io/post/auto_activate_bashrc/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
-  </footer>
   
 </article>
 

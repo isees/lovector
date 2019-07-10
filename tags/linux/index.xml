@@ -6,10 +6,19 @@
     <description>Recent content in Linux on LOVECTOR</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2018. All rights reserved.</copyright>
-    <lastBuildDate>Thu, 01 Nov 2018 16:48:47 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jul 2019 21:20:45 +0800</lastBuildDate>
     
 	<atom:link href="https://isees.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Connecting to server via ssh</title>
+      <link>https://isees.github.io/post/connecting_to_server_with_ssh/</link>
+      <pubDate>Wed, 10 Jul 2019 21:20:45 +0800</pubDate>
+      
+      <guid>https://isees.github.io/post/connecting_to_server_with_ssh/</guid>
+      <description> 1. Generate a Key Pair $ ssh-keygen -t rsa -b 4096  2. Upload your Public Key $ ssh-copy-id -i KEYNAME USERNAME@IP -p PORT  3. Connecting to server via ssh $ ssh -i KEYNAME -p &#39;PORT&#39; &#39;USERNAME@IP&#39;  References  https://www.linode.com/docs/security/authentication/use-public-key-authentication-with-ssh/  </description>
+    </item>
     
     <item>
       <title>zpool status: too many errors</title>
