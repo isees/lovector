@@ -6,103 +6,58 @@
     <description>Recent content in Tags on LOVECTOR</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2018. All rights reserved.</copyright>
-    <lastBuildDate>Thu, 22 Mar 2018 14:52:16 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jul 2019 16:33:32 +0800</lastBuildDate>
     
 	<atom:link href="https://isees.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>.Bashrc</title>
-      <link>https://isees.github.io/tags/.bashrc/</link>
-      <pubDate>Thu, 22 Mar 2018 14:52:16 +0800</pubDate>
+      <title>anaconda</title>
+      <link>https://isees.github.io/tags/anaconda/</link>
+      <pubDate>Fri, 19 Jul 2019 16:33:32 +0800</pubDate>
       
-      <guid>https://isees.github.io/tags/.bashrc/</guid>
+      <guid>https://isees.github.io/tags/anaconda/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>2018</title>
-      <link>https://isees.github.io/tags/2018/</link>
-      <pubDate>Fri, 23 Feb 2018 00:46:22 +0800</pubDate>
+      <title>conda</title>
+      <link>https://isees.github.io/tags/conda/</link>
+      <pubDate>Fri, 19 Jul 2019 16:33:32 +0800</pubDate>
       
-      <guid>https://isees.github.io/tags/2018/</guid>
+      <guid>https://isees.github.io/tags/conda/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Android</title>
-      <link>https://isees.github.io/tags/android/</link>
-      <pubDate>Sun, 15 Apr 2018 19:00:00 +0800</pubDate>
+      <title>mac</title>
+      <link>https://isees.github.io/tags/mac/</link>
+      <pubDate>Fri, 19 Jul 2019 16:33:32 +0800</pubDate>
       
-      <guid>https://isees.github.io/tags/android/</guid>
+      <guid>https://isees.github.io/tags/mac/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Bash</title>
-      <link>https://isees.github.io/tags/bash/</link>
-      <pubDate>Sun, 06 May 2018 20:28:00 +0800</pubDate>
+      <title>python</title>
+      <link>https://isees.github.io/tags/python/</link>
+      <pubDate>Fri, 19 Jul 2019 16:33:32 +0800</pubDate>
       
-      <guid>https://isees.github.io/tags/bash/</guid>
+      <guid>https://isees.github.io/tags/python/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Begin</title>
-      <link>https://isees.github.io/tags/begin/</link>
-      <pubDate>Fri, 23 Feb 2018 00:46:22 +0800</pubDate>
+      <title>vscode</title>
+      <link>https://isees.github.io/tags/vscode/</link>
+      <pubDate>Fri, 19 Jul 2019 16:33:32 +0800</pubDate>
       
-      <guid>https://isees.github.io/tags/begin/</guid>
+      <guid>https://isees.github.io/tags/vscode/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Centos</title>
-      <link>https://isees.github.io/tags/centos/</link>
-      <pubDate>Sun, 01 Apr 2018 19:19:23 +0800</pubDate>
-      
-      <guid>https://isees.github.io/tags/centos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Disk</title>
-      <link>https://isees.github.io/tags/disk/</link>
-      <pubDate>Thu, 18 Oct 2018 00:32:56 +0800</pubDate>
-      
-      <guid>https://isees.github.io/tags/disk/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Docker</title>
-      <link>https://isees.github.io/tags/docker/</link>
-      <pubDate>Wed, 04 Apr 2018 05:11:11 +0800</pubDate>
-      
-      <guid>https://isees.github.io/tags/docker/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fork</title>
-      <link>https://isees.github.io/tags/fork/</link>
-      <pubDate>Wed, 28 Feb 2018 15:50:07 +0800</pubDate>
-      
-      <guid>https://isees.github.io/tags/fork/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Github</title>
-      <link>https://isees.github.io/tags/github/</link>
-      <pubDate>Wed, 28 Feb 2018 15:50:07 +0800</pubDate>
-      
-      <guid>https://isees.github.io/tags/github/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Linux</title>
+      <title>linux</title>
       <link>https://isees.github.io/tags/linux/</link>
       <pubDate>Wed, 10 Jul 2019 21:20:45 +0800</pubDate>
       
@@ -111,70 +66,7 @@
     </item>
     
     <item>
-      <title>Mac</title>
-      <link>https://isees.github.io/tags/mac/</link>
-      <pubDate>Wed, 10 Jul 2019 21:20:45 +0800</pubDate>
-      
-      <guid>https://isees.github.io/tags/mac/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mongodb</title>
-      <link>https://isees.github.io/tags/mongodb/</link>
-      <pubDate>Wed, 04 Apr 2018 05:11:11 +0800</pubDate>
-      
-      <guid>https://isees.github.io/tags/mongodb/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mount</title>
-      <link>https://isees.github.io/tags/mount/</link>
-      <pubDate>Tue, 16 Oct 2018 00:12:53 +0800</pubDate>
-      
-      <guid>https://isees.github.io/tags/mount/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Samba</title>
-      <link>https://isees.github.io/tags/samba/</link>
-      <pubDate>Mon, 15 Oct 2018 23:56:23 +0800</pubDate>
-      
-      <guid>https://isees.github.io/tags/samba/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Script</title>
-      <link>https://isees.github.io/tags/script/</link>
-      <pubDate>Sun, 06 May 2018 20:28:00 +0800</pubDate>
-      
-      <guid>https://isees.github.io/tags/script/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sdk</title>
-      <link>https://isees.github.io/tags/sdk/</link>
-      <pubDate>Sun, 15 Apr 2018 19:00:00 +0800</pubDate>
-      
-      <guid>https://isees.github.io/tags/sdk/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Search</title>
-      <link>https://isees.github.io/tags/search/</link>
-      <pubDate>Sun, 21 Oct 2018 17:27:15 +0800</pubDate>
-      
-      <guid>https://isees.github.io/tags/search/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ssh</title>
+      <title>ssh</title>
       <link>https://isees.github.io/tags/ssh/</link>
       <pubDate>Wed, 10 Jul 2019 21:20:45 +0800</pubDate>
       
@@ -183,25 +75,16 @@
     </item>
     
     <item>
-      <title>Ubuntu</title>
-      <link>https://isees.github.io/tags/ubuntu/</link>
-      <pubDate>Sun, 01 Apr 2018 19:19:23 +0800</pubDate>
+      <title>zfs</title>
+      <link>https://isees.github.io/tags/zfs/</link>
+      <pubDate>Thu, 01 Nov 2018 16:48:47 +0800</pubDate>
       
-      <guid>https://isees.github.io/tags/ubuntu/</guid>
+      <guid>https://isees.github.io/tags/zfs/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Unix</title>
-      <link>https://isees.github.io/tags/unix/</link>
-      <pubDate>Sun, 06 May 2018 20:28:00 +0800</pubDate>
-      
-      <guid>https://isees.github.io/tags/unix/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Wifi</title>
+      <title>wifi</title>
       <link>https://isees.github.io/tags/wifi/</link>
       <pubDate>Tue, 23 Oct 2018 11:25:01 +0800</pubDate>
       
@@ -210,20 +93,83 @@
     </item>
     
     <item>
-      <title>X Os</title>
-      <link>https://isees.github.io/tags/x-os/</link>
-      <pubDate>Thu, 22 Mar 2018 14:52:16 +0800</pubDate>
+      <title>search</title>
+      <link>https://isees.github.io/tags/search/</link>
+      <pubDate>Sun, 21 Oct 2018 17:27:15 +0800</pubDate>
       
-      <guid>https://isees.github.io/tags/x-os/</guid>
+      <guid>https://isees.github.io/tags/search/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Zfs</title>
-      <link>https://isees.github.io/tags/zfs/</link>
-      <pubDate>Thu, 01 Nov 2018 16:48:47 +0800</pubDate>
+      <title>disk</title>
+      <link>https://isees.github.io/tags/disk/</link>
+      <pubDate>Thu, 18 Oct 2018 00:32:56 +0800</pubDate>
       
-      <guid>https://isees.github.io/tags/zfs/</guid>
+      <guid>https://isees.github.io/tags/disk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mount</title>
+      <link>https://isees.github.io/tags/mount/</link>
+      <pubDate>Tue, 16 Oct 2018 00:12:53 +0800</pubDate>
+      
+      <guid>https://isees.github.io/tags/mount/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>samba</title>
+      <link>https://isees.github.io/tags/samba/</link>
+      <pubDate>Mon, 15 Oct 2018 23:56:23 +0800</pubDate>
+      
+      <guid>https://isees.github.io/tags/samba/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bash</title>
+      <link>https://isees.github.io/tags/bash/</link>
+      <pubDate>Sun, 06 May 2018 20:28:00 +0800</pubDate>
+      
+      <guid>https://isees.github.io/tags/bash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>script</title>
+      <link>https://isees.github.io/tags/script/</link>
+      <pubDate>Sun, 06 May 2018 20:28:00 +0800</pubDate>
+      
+      <guid>https://isees.github.io/tags/script/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>unix</title>
+      <link>https://isees.github.io/tags/unix/</link>
+      <pubDate>Sun, 06 May 2018 20:28:00 +0800</pubDate>
+      
+      <guid>https://isees.github.io/tags/unix/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>android</title>
+      <link>https://isees.github.io/tags/android/</link>
+      <pubDate>Sun, 15 Apr 2018 19:00:00 +0800</pubDate>
+      
+      <guid>https://isees.github.io/tags/android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sdk</title>
+      <link>https://isees.github.io/tags/sdk/</link>
+      <pubDate>Sun, 15 Apr 2018 19:00:00 +0800</pubDate>
+      
+      <guid>https://isees.github.io/tags/sdk/</guid>
       <description></description>
     </item>
     
@@ -233,6 +179,60 @@
       <pubDate>Sun, 15 Apr 2018 19:00:00 +0800</pubDate>
       
       <guid>https://isees.github.io/tags/%E6%89%8B%E6%B8%B8/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docker</title>
+      <link>https://isees.github.io/tags/docker/</link>
+      <pubDate>Wed, 04 Apr 2018 05:11:11 +0800</pubDate>
+      
+      <guid>https://isees.github.io/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mongodb</title>
+      <link>https://isees.github.io/tags/mongodb/</link>
+      <pubDate>Wed, 04 Apr 2018 05:11:11 +0800</pubDate>
+      
+      <guid>https://isees.github.io/tags/mongodb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>centos</title>
+      <link>https://isees.github.io/tags/centos/</link>
+      <pubDate>Sun, 01 Apr 2018 19:19:23 +0800</pubDate>
+      
+      <guid>https://isees.github.io/tags/centos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ubuntu</title>
+      <link>https://isees.github.io/tags/ubuntu/</link>
+      <pubDate>Sun, 01 Apr 2018 19:19:23 +0800</pubDate>
+      
+      <guid>https://isees.github.io/tags/ubuntu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>.bashrc</title>
+      <link>https://isees.github.io/tags/.bashrc/</link>
+      <pubDate>Thu, 22 Mar 2018 14:52:16 +0800</pubDate>
+      
+      <guid>https://isees.github.io/tags/.bashrc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>x os</title>
+      <link>https://isees.github.io/tags/x-os/</link>
+      <pubDate>Thu, 22 Mar 2018 14:52:16 +0800</pubDate>
+      
+      <guid>https://isees.github.io/tags/x-os/</guid>
       <description></description>
     </item>
     
@@ -251,6 +251,42 @@
       <pubDate>Thu, 01 Mar 2018 04:11:50 +0800</pubDate>
       
       <guid>https://isees.github.io/tags/%E8%BF%9B%E7%A8%8B/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fork</title>
+      <link>https://isees.github.io/tags/fork/</link>
+      <pubDate>Wed, 28 Feb 2018 15:50:07 +0800</pubDate>
+      
+      <guid>https://isees.github.io/tags/fork/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>github</title>
+      <link>https://isees.github.io/tags/github/</link>
+      <pubDate>Wed, 28 Feb 2018 15:50:07 +0800</pubDate>
+      
+      <guid>https://isees.github.io/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2018</title>
+      <link>https://isees.github.io/tags/2018/</link>
+      <pubDate>Fri, 23 Feb 2018 00:46:22 +0800</pubDate>
+      
+      <guid>https://isees.github.io/tags/2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>begin</title>
+      <link>https://isees.github.io/tags/begin/</link>
+      <pubDate>Fri, 23 Feb 2018 00:46:22 +0800</pubDate>
+      
+      <guid>https://isees.github.io/tags/begin/</guid>
       <description></description>
     </item>
     

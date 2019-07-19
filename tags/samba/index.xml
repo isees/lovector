@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Samba on LOVECTOR</title>
+    <title>samba on LOVECTOR</title>
     <link>https://isees.github.io/tags/samba/</link>
-    <description>Recent content in Samba on LOVECTOR</description>
+    <description>Recent content in samba on LOVECTOR</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2018. All rights reserved.</copyright>
     <lastBuildDate>Mon, 15 Oct 2018 23:56:23 +0800</lastBuildDate>

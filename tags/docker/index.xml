@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Docker on LOVECTOR</title>
+    <title>docker on LOVECTOR</title>
     <link>https://isees.github.io/tags/docker/</link>
-    <description>Recent content in Docker on LOVECTOR</description>
+    <description>Recent content in docker on LOVECTOR</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2018. All rights reserved.</copyright>
     <lastBuildDate>Wed, 04 Apr 2018 05:11:11 +0800</lastBuildDate>
