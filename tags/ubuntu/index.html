@@ -224,6 +224,58 @@
   
     <article>
   <header>
+    <h2><a href="https://isees.github.io/post/zfs_create_disk_pools/">ZFS - CREATE DISK POOLS</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>07 Aug 2019, 19:46</time>
+  </div>
+
+  
+
+  
+  
+  
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://isees.github.io/tags/zfs">zfs</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://isees.github.io/tags/raid">raid</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://isees.github.io/tags/ubuntu">ubuntu</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  This tutorial will cover how to create pools with different RAID levels.
+ singular/basic (no RAID) raidz raidz2 raid 0 raid 10  Creating the pools by specifying disks like /dev/sda and /dev/sdb is somewhat dangerous. Your pool could become degraded or disappear if you plug in another drive and all the letters change. To remedy this, use paths with /dev/disk/by-id/... instead.
+Also, if your pool does become degraded because of the situation described above, running those export/import commands will fix the situation, even if you have already written data since the pool became degraded.
+  </p>
+
+  
+  <footer>
+    <a href="https://isees.github.io/post/zfs_create_disk_pools/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
     <h2><a href="https://isees.github.io/post/how_to_run_scripts_on_start_up/">如何在linux系统启动时执行脚本/命令?</a></h2>
 
     <div class="post-meta">

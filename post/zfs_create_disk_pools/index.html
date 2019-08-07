@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="generator" content="Hugo 0.55.6" />
 
-  <title>Vscode activates conda but points to the default python &middot; LOVECTOR</title>
+  <title>ZFS - CREATE DISK POOLS &middot; LOVECTOR</title>
 
   
   
@@ -215,7 +215,7 @@
 
 
 <div class="header">
-  <h1>Vscode activates conda but points to the default python</h1>
+  <h1>ZFS - CREATE DISK POOLS</h1>
   <h2></h2>
 </div>
 <div class="content">
@@ -224,7 +224,7 @@
 
   <div>
     <i class="fa fa-calendar fa-fw"></i>
-    <time>19 Jul 2019, 16:33</time>
+    <time>07 Aug 2019, 19:46</time>
   </div>
 
   
@@ -240,15 +240,11 @@
   <div>
     <i class="fa fa-tags fa-fw"></i>
     
-      <a class="post-taxonomy-tag" href="https://isees.github.io/tags/vscode">vscode</a>&nbsp;&#47;
+      <a class="post-taxonomy-tag" href="https://isees.github.io/tags/zfs">zfs</a>&nbsp;&#47;
     
-      <a class="post-taxonomy-tag" href="https://isees.github.io/tags/anaconda">anaconda</a>&nbsp;&#47;
+      <a class="post-taxonomy-tag" href="https://isees.github.io/tags/raid">raid</a>&nbsp;&#47;
     
-      <a class="post-taxonomy-tag" href="https://isees.github.io/tags/conda">conda</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://isees.github.io/tags/python">python</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://isees.github.io/tags/mac">mac</a>
+      <a class="post-taxonomy-tag" href="https://isees.github.io/tags/ubuntu">ubuntu</a>
     
   </div>
   
@@ -258,39 +254,133 @@
 
   
 
-<h2 id="behavior">Behavior</h2>
+<p>This tutorial will cover how to create pools with different RAID levels.</p>
 
-<p>When <code>conda activate env</code>, terminal states that env is activated - prints (env) at the beginning of the line. Same with the interpreter - VScode sees it and I am able to select it.</p>
+<ul>
+<li>singular/basic (no RAID)</li>
+<li>raidz</li>
+<li>raidz2</li>
+<li>raid 0</li>
+<li>raid 10</li>
+</ul>
 
-<p>However, <code>which python</code> points to the default python on MacOS, and therefore none python 3.6-dependent packages work. Same with the interpreter - VScode fails to find packages which are installed in the env</p>
+<p>Creating the pools by specifying disks like <code>/dev/sda</code> and <code>/dev/sdb</code> is somewhat dangerous. Your pool could become degraded or disappear if you plug in another drive and all the letters change. To remedy this, use paths with <code>/dev/disk/by-id/...</code> instead.</p>
 
-<h2 id="how-to-solve">How to solve</h2>
+<p>Also, if your pool does become degraded because of the situation described above, running those export/import commands will fix the situation, even if you have already written data since the pool became degraded.</p>
 
-<h3 id="1-open-settings">1. Open settings</h3>
-
-<p><img src="https://user-images.githubusercontent.com/19368794/61522055-219dd280-aa44-11e9-8311-3dd7de6945bd.png" alt="Open Settings" /></p>
-
-<h3 id="2-modify-configuration">2. Modify configuration</h3>
-
-<p>Add following content to configuration</p>
-
-<pre><code class="language-bash">  &quot;terminal.integrated.env.osx&quot;: {
-    &quot;PATH&quot;: &quot;&quot;
-  }
+<pre><code class="language-bash">sudo zpool export [my pool name]
+sudo zpool import -d [my pool name]
 </code></pre>
 
-<p><img src="https://user-images.githubusercontent.com/19368794/61522129-472adc00-aa44-11e9-9dd2-7be21626d253.png" alt="Modify env config" /></p>
+<h2 id="single-disk-no-raid">Single Disk (No RAID)</h2>
 
-<h3 id="3-restart-vscode">3. Restart VSCode</h3>
+<pre><code class="language-bash">sudo zpool create -f [new pool name] /dev/disk/by-id/ata-TOSHIBA_DT01ACA300_37U9AR2AS
+</code></pre>
 
-<p>Then the <code>$PATH</code> will be the same as the external terminal.</p>
+<hr />
 
-<p><img src="https://user-images.githubusercontent.com/19368794/61524220-93781b00-aa48-11e9-8c03-49d06d764e23.png" alt="Activate success" /></p>
+<p><strong>NOTE</strong></p>
+
+<p>The -f prevents the error message from preventing the creation. Be careful when using this as you could overwrite existing pools/partitions.</p>
+
+<hr />
+
+<h2 id="multiple-disk-raid-0">Multiple Disk (RAID 0)</h2>
+
+<pre><code class="language-bash">sudo zpool create -f [new pool name] /dev/disk/by-id/ata-TOSHIBA_DT01ACA300_37U9AR2AS /dev/disk/by-id/ata-TOSHIBA_DT01ACA300_37U9DSYAS
+</code></pre>
+
+<h2 id="adding-drives">Adding Drives</h2>
+
+<pre><code class="language-bash">sudo zpool add [existing pool name] /dev/sdd
+</code></pre>
+
+<h2 id="raid-1">Raid 1</h2>
+
+<p>To create a RAID1 pool (or mirror), simply add the command mirror when creating or adding drives. For example:</p>
+
+<pre><code class="language-bash">sudo zpool create  -f [new pool name] mirror /dev/sdb /dev/sdc
+</code></pre>
+
+<pre><code class="language-bash">sudo zpool add [existing pool name] mirror /dev/sdd /dev/sde
+</code></pre>
+
+<h2 id="raid-10">RAID 10</h2>
+
+<pre><code class="language-bash">sudo zpool create [pool name] \
+  mirror disk1 disk2 \
+  mirror disk3 disk4
+</code></pre>
+
+<p>The output of sudo zpool status would show:</p>
+
+<pre><code class="language-bash">pool: myPool
+ state: ONLINE
+  scan: none requested
+config:
+
+        NAME        STATE     READ WRITE CKSUM
+        myPool      ONLINE       0     0     0
+          mirror-0  ONLINE       0     0     0
+            sdb     ONLINE       0     0     0
+            sdc     ONLINE       0     0     0
+          mirror-1  ONLINE       0     0     0
+            sdd     ONLINE       0     0     0
+            sde     ONLINE       0     0     0
+</code></pre>
+
+<h2 id="raid-z-raid-5">RAID Z (RAID 5)</h2>
+
+<pre><code class="language-bash">sudo zpool create -f [pool name] raidz /dev/sdb /dev/sdc /dev/sdd
+</code></pre>
+
+<pre><code class="language-bash">sudo zpool add -f [pool name] /dev/sde
+</code></pre>
+
+<pre><code class="language-bash">pool: poolz
+ state: ONLINE
+  scan: none requested
+config:
+
+        NAME        STATE     READ WRITE CKSUM
+        poolz       ONLINE       0     0     0
+          raidz1-0  ONLINE       0     0     0
+            sdb     ONLINE       0     0     0
+            sdc     ONLINE       0     0     0
+            sdd     ONLINE       0     0     0
+            sde     ONLINE       0     0     0
+</code></pre>
+
+<h2 id="raidz2">RAIDz2</h2>
+
+<pre><code class="language-bash">sudo zpool create -f [pool name] raidz2 /dev/sdb /dev/sdc /dev/sdd
+</code></pre>
+
+<hr />
+
+<p><strong>NOTE</strong></p>
+
+<p>You need a minimum of 3 drives</p>
+
+<hr />
+
+<h2 id="raidz3">RAIDz3</h2>
+
+<pre><code class="language-bash">sudo zpool create -f [pool name] raidz3 /dev/sdb /dev/sdc /dev/sdd /dev/sde
+</code></pre>
+
+<h2 id="destroying-pools">Destroying Pools</h2>
+
+<pre><code class="language-bash">sudo zpool destroy [pool name]
+</code></pre>
 
 <h2 id="references">References</h2>
 
 <ul>
-<li><a href="https://github.com/Microsoft/vscode-python/issues/4434">vscode activates conda but points to the default python</a></li>
+<li><a href="http://blog.programster.org/zfs-create-disk-pools">ZFS - Create Disk Pools</a></li>
+<li><a href="http://www.zfsbuild.com/2010/06/03/howto-create-raidz-zpool/">HowTo : Create RAIDZ Zpool</a></li>
+<li><a href="http://elza.me/blog/2015/06/ZFS/">Setting Up raid10 (Striped Mirror) ZFS on Ubuntu</a></li>
+<li><a href="https://docs.oracle.com/cd/E19253-01/819-5461/gaynr/index.html">Oracle ZFS Documentation</a></li>
 </ul>
 
 
@@ -298,13 +388,13 @@
 <div class="prev-next-post pure-g">
   <div class="pure-u-1-24" style="text-align: left;">
     
-    <a href="https://isees.github.io/post/connecting_to_server_with_ssh/"><i class="fa fa-chevron-left"></i></a>
+    <a href="https://isees.github.io/post/vscode_activates_conda_but_points_to_the_default_python/"><i class="fa fa-chevron-left"></i></a>
     
   </div>
   <div class="pure-u-10-24">
     
     <nav class="prev">
-      <a href="https://isees.github.io/post/connecting_to_server_with_ssh/">Connecting to server via ssh</a>
+      <a href="https://isees.github.io/post/vscode_activates_conda_but_points_to_the_default_python/">Vscode activates conda but points to the default python</a>
     </nav>
     
   </div>
@@ -313,14 +403,8 @@
   </div>
   <div class="pure-u-10-24">
     
-    <nav class="next">
-      <a href="https://isees.github.io/post/zfs_create_disk_pools/">ZFS - CREATE DISK POOLS</a>
-    </nav>
-    
   </div>
   <div class="pure-u-1-24" style="text-align: right;">
-    
-    <a href="https://isees.github.io/post/zfs_create_disk_pools/"><i class="fa fa-chevron-right"></i></a>
     
   </div>
 </div>

@@ -6,10 +6,37 @@
     <description>Recent content in Tags on LOVECTOR</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2018. All rights reserved.</copyright>
-    <lastBuildDate>Fri, 19 Jul 2019 16:33:32 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 07 Aug 2019 19:46:29 +0800</lastBuildDate>
     
 	<atom:link href="https://isees.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>raid</title>
+      <link>https://isees.github.io/tags/raid/</link>
+      <pubDate>Wed, 07 Aug 2019 19:46:29 +0800</pubDate>
+      
+      <guid>https://isees.github.io/tags/raid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ubuntu</title>
+      <link>https://isees.github.io/tags/ubuntu/</link>
+      <pubDate>Wed, 07 Aug 2019 19:46:29 +0800</pubDate>
+      
+      <guid>https://isees.github.io/tags/ubuntu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>zfs</title>
+      <link>https://isees.github.io/tags/zfs/</link>
+      <pubDate>Wed, 07 Aug 2019 19:46:29 +0800</pubDate>
+      
+      <guid>https://isees.github.io/tags/zfs/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>anaconda</title>
@@ -71,15 +98,6 @@
       <pubDate>Wed, 10 Jul 2019 21:20:45 +0800</pubDate>
       
       <guid>https://isees.github.io/tags/ssh/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>zfs</title>
-      <link>https://isees.github.io/tags/zfs/</link>
-      <pubDate>Thu, 01 Nov 2018 16:48:47 +0800</pubDate>
-      
-      <guid>https://isees.github.io/tags/zfs/</guid>
       <description></description>
     </item>
     
@@ -206,15 +224,6 @@
       <pubDate>Sun, 01 Apr 2018 19:19:23 +0800</pubDate>
       
       <guid>https://isees.github.io/tags/centos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ubuntu</title>
-      <link>https://isees.github.io/tags/ubuntu/</link>
-      <pubDate>Sun, 01 Apr 2018 19:19:23 +0800</pubDate>
-      
-      <guid>https://isees.github.io/tags/ubuntu/</guid>
       <description></description>
     </item>
     

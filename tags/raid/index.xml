@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>zfs on LOVECTOR</title>
-    <link>https://isees.github.io/tags/zfs/</link>
-    <description>Recent content in zfs on LOVECTOR</description>
+    <title>raid on LOVECTOR</title>
+    <link>https://isees.github.io/tags/raid/</link>
+    <description>Recent content in raid on LOVECTOR</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2018. All rights reserved.</copyright>
     <lastBuildDate>Wed, 07 Aug 2019 19:46:29 +0800</lastBuildDate>
     
-	<atom:link href="https://isees.github.io/tags/zfs/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://isees.github.io/tags/raid/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,15 +20,6 @@
       <description>This tutorial will cover how to create pools with different RAID levels.
  singular/basic (no RAID) raidz raidz2 raid 0 raid 10  Creating the pools by specifying disks like /dev/sda and /dev/sdb is somewhat dangerous. Your pool could become degraded or disappear if you plug in another drive and all the letters change. To remedy this, use paths with /dev/disk/by-id/... instead.
 Also, if your pool does become degraded because of the situation described above, running those export/import commands will fix the situation, even if you have already written data since the pool became degraded.</description>
-    </item>
-    
-    <item>
-      <title>zpool status: too many errors</title>
-      <link>https://isees.github.io/post/zpool_status_errors/</link>
-      <pubDate>Thu, 01 Nov 2018 16:48:47 +0800</pubDate>
-      
-      <guid>https://isees.github.io/post/zpool_status_errors/</guid>
-      <description> CHECK THE CABLE AND POWER CHECK THE STATUS OF THE SPECIFIC DISK smartctl -a /dev/sde  Clear zpool clear tank  SCRUB AT LEAST ONCE PER MONTH zpool scrub tank #stop scrubbing: zpool scrub -s tank  CHECK STATUS zpool status -v  </description>
     </item>
     
   </channel>
