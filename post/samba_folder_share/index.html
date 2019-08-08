@@ -252,43 +252,70 @@
 
   
 
-<h4 id="1-install-samba">1. Install Samba</h4>
+<h2 id="1-install-samba">1. Install Samba</h2>
 
 <pre><code class="language-bash">sudo apt-get update
 sudo apt-get install samba
 </code></pre>
 
-<h4 id="2-set-a-password-for-your-user-in-samba">2. Set a password for your user in Samba</h4>
+<h2 id="2-set-a-password-for-your-user-in-samba">2. Set a password for your user in Samba</h2>
 
 <pre><code class="language-bash">sudo smbpasswd -a &lt;user_name&gt;
 </code></pre>
 
-<h4 id="3-create-a-directory-to-be-shared">3. Create a directory to be shared</h4>
+<h2 id="3-create-a-directory-to-be-shared">3. Create a directory to be shared</h2>
 
 <pre><code class="language-bash">mkdir /home/&lt;user_name&gt;/&lt;folder_name&gt;
 </code></pre>
 
-<h4 id="4-make-a-safe-backup-copy-of-the-original-smb-conf-file-to-your-home-folder-in-case-you-make-an-error">4. Make a safe backup copy of the original smb.conf file to your home folder, in case you make an error</h4>
+<h2 id="4-make-a-safe-backup-copy-of-the-original-smb-conf-file-to-your-home-folder-in-case-you-make-an-error">4. Make a safe backup copy of the original smb.conf file to your home folder, in case you make an error</h2>
 
 <pre><code class="language-bash">sudo cp /etc/samba/smb.conf ~
 </code></pre>
 
-<h4 id="5-edit-the-file-etc-samba-smb-conf">5. Edit the file &ldquo;/etc/samba/smb.conf&rdquo;</h4>
+<h2 id="5-edit-the-file-etc-samba-smb-conf">5. Edit the file &ldquo;/etc/samba/smb.conf&rdquo;</h2>
 
 <pre><code class="language-bash">sudo vim /etc/samba/smb.conf
 </code></pre>
 
-<h4 id="6-restart-the-samba">6. Restart the samba:</h4>
+<hr />
+
+<p><strong>smb.conf sample</strong></p>
+
+<pre><code> [download]
+    hide unreadable = yes
+    comment = download
+    path = /tank/download
+    browseable = yes
+    writable = yes
+    create mask = 0644
+    directory mask = 0755
+    available = yes
+    browseable = yes
+    public = yes
+    valid users = @top
+    sync always = yes
+    max connections = 100
+    map archive = no
+    map hidden = no
+    map read only = no
+    map system = no
+    store dos attributes = yes
+</code></pre>
+
+<hr />
+
+<h2 id="6-restart-the-samba">6. Restart the samba:</h2>
 
 <pre><code class="language-bash">sudo service smbd restart
 </code></pre>
 
-<h4 id="7-once-samba-has-restarted-use-this-command-to-check-your-smb-conf-for-any-syntax-errors">7. Once Samba has restarted, use this command to check your smb.conf for any syntax errors</h4>
+<h2 id="7-once-samba-has-restarted-use-this-command-to-check-your-smb-conf-for-any-syntax-errors">7. Once Samba has restarted, use this command to check your smb.conf for any syntax errors</h2>
 
 <pre><code class="language-bash">testparm
 </code></pre>
 
-<h4 id="8-to-access-your-network-share">8. To access your network share</h4>
+<h2 id="8-to-access-your-network-share">8. To access your network share</h2>
 
 <pre><code class="language-bash">sudo apt-get install smbclient
 # List all shares:
@@ -297,7 +324,13 @@ smbclient -L //&lt;HOST_IP_OR_NAME&gt;/&lt;folder_name&gt; -U &lt;user&gt;
 smbclient //&lt;HOST_IP_OR_NAME&gt;/&lt;folder_name&gt; -U &lt;user&gt;
 </code></pre>
 
-<p>To access your network share use your username (<user_name>) and password through the path &ldquo;smb://<HOST_IP_OR_NAME>/<folder_name>/&rdquo; (Linux users) or &ldquo;\<HOST_IP_OR_NAME>&lt;folder_name&gt;\&rdquo; (Windows users). Note that &ldquo;<folder_name>&rdquo; value is passed in &ldquo;[<folder_name>]&ldquo;, in other words, the share name you entered in &ldquo;/etc/samba/smb.conf&rdquo;.</p>
+<p>To access your network share use your username (<code>&lt;user_name&gt;</code>) and password through the path <code>smb://&lt;HOST_IP_OR_NAME&gt;/&lt;folder_name&gt;/</code> (Linux users) or <code>&lt;HOST_IP_OR_NAME&gt;\&lt;folder_name&gt;\</code> (Windows users). Note that <code>&lt;folder_name&gt;</code> value is passed in <code>[&lt;folder_name&gt;]</code>, in other words, the share name you entered in <code>/etc/samba/smb.conf</code>.</p>
+
+<h2 id="references">References</h2>
+
+<ul>
+<li><a href="https://tutorials.ubuntu.com/tutorial/install-and-configure-samba">Install and Configure Samba</a></li>
+</ul>
 
 
   
