@@ -5,7 +5,7 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
-  <meta name="generator" content="Hugo 0.55.6" />
+  <meta name="generator" content="Hugo 0.58.3" />
 
   <title>Linux进程与端口相互查询 &middot; LOVECTOR</title>
 
@@ -224,7 +224,7 @@
 
   <div>
     <i class="fa fa-calendar fa-fw"></i>
-    <time>01 Mar 2018, 04:11</time>
+    <time>05 Nov 2019, 04:11</time>
   </div>
 
   
@@ -241,7 +241,9 @@
     
       <a class="post-taxonomy-tag" href="https://isees.github.io/tags/%E8%BF%9B%E7%A8%8B">进程</a>&nbsp;&#47;
     
-      <a class="post-taxonomy-tag" href="https://isees.github.io/tags/%E7%AB%AF%E5%8F%A3">端口</a>
+      <a class="post-taxonomy-tag" href="https://isees.github.io/tags/%E7%AB%AF%E5%8F%A3">端口</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://isees.github.io/tags/mac">mac</a>
     
   </div>
   
@@ -277,22 +279,41 @@ udp        0      0 0.0.0.0:6881            0.0.0.0:*
 
 <h2 id="通过端口查询进程">通过端口查询进程</h2>
 
+<ol>
+<li><p>You can normally do</p>
+
 <pre><code class="language-bash">$ sudo netstat -nap|grep 58710
 tcp        0      0 192.168.100.9:58710     221.196.63.64:16881     ESTABLISHED 2704/aria2c
-</code></pre>
+</code></pre></li>
+
+<li><p>You can try netstat</p>
+
+<pre><code class="language-bash">netstat -vanp tcp | grep 3000
+</code></pre></li>
+
+<li><p>For macOS El Capitan and newer (or if your netstat doesn&rsquo;t support -p), use lsof</p>
+
+<pre><code class="language-bash">sudo lsof -i tcp:3000
+</code></pre></li>
+
+<li><p>For Centos 7 use</p>
+
+<pre><code class="language-bash">netstat -vanp --tcp | grep 3000
+</code></pre></li>
+</ol>
 
 
   
 <div class="prev-next-post pure-g">
   <div class="pure-u-1-24" style="text-align: left;">
     
-    <a href="https://isees.github.io/post/how_to_contribute_code/"><i class="fa fa-chevron-left"></i></a>
+    <a href="https://isees.github.io/post/samba_folder_share/"><i class="fa fa-chevron-left"></i></a>
     
   </div>
   <div class="pure-u-10-24">
     
     <nav class="prev">
-      <a href="https://isees.github.io/post/how_to_contribute_code/">如何贡献项目</a>
+      <a href="https://isees.github.io/post/samba_folder_share/">How to create a network share via Samba via CLI</a>
     </nav>
     
   </div>
@@ -301,14 +322,8 @@ tcp        0      0 192.168.100.9:58710     221.196.63.64:16881     ESTABLISHED 
   </div>
   <div class="pure-u-10-24">
     
-    <nav class="next">
-      <a href="https://isees.github.io/post/auto_activate_bashrc/">~/.bashrc没有自动生效</a>
-    </nav>
-    
   </div>
   <div class="pure-u-1-24" style="text-align: right;">
-    
-    <a href="https://isees.github.io/post/auto_activate_bashrc/"><i class="fa fa-chevron-right"></i></a>
     
   </div>
 </div>
