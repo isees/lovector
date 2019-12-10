@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>search on LOVECTOR</title>
-    <link>https://isees.github.io/tags/search/</link>
+    <link>https://lovector.me/tags/search/</link>
     <description>Recent content in search on LOVECTOR</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2018. All rights reserved.</copyright>
     <lastBuildDate>Sun, 21 Oct 2018 17:27:15 +0800</lastBuildDate>
     
-	<atom:link href="https://isees.github.io/tags/search/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lovector.me/tags/search/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Mv after find</title>
-      <link>https://isees.github.io/post/mv_after_find/</link>
+      <link>https://lovector.me/post/mv_after_find/</link>
       <pubDate>Sun, 21 Oct 2018 17:27:15 +0800</pubDate>
       
-      <guid>https://isees.github.io/post/mv_after_find/</guid>
+      <guid>https://lovector.me/post/mv_after_find/</guid>
       <description>find path_A -name &#39;*AAA*&#39; -exec mv -t path_B {} +  That will use find&amp;rsquo;s -exec option which replaces the {} with each find result in turn and runs the command you give it. As explained in man find:
 -exec command ; Execute command; true if 0 status is returned. All following arguments to find are taken to be arguments to the command until an argument consisting of &#39;;&#39; is encountered.</description>
     </item>

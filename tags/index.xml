@@ -2,300 +2,300 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on LOVECTOR</title>
-    <link>https://isees.github.io/tags/</link>
+    <link>https://lovector.me/tags/</link>
     <description>Recent content in Tags on LOVECTOR</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2018. All rights reserved.</copyright>
     <lastBuildDate>Tue, 05 Nov 2019 04:11:50 +0800</lastBuildDate>
     
-	<atom:link href="https://isees.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lovector.me/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>linux</title>
-      <link>https://isees.github.io/tags/linux/</link>
+      <link>https://lovector.me/tags/linux/</link>
       <pubDate>Tue, 05 Nov 2019 04:11:50 +0800</pubDate>
       
-      <guid>https://isees.github.io/tags/linux/</guid>
+      <guid>https://lovector.me/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>mac</title>
-      <link>https://isees.github.io/tags/mac/</link>
+      <link>https://lovector.me/tags/mac/</link>
       <pubDate>Tue, 05 Nov 2019 04:11:50 +0800</pubDate>
       
-      <guid>https://isees.github.io/tags/mac/</guid>
+      <guid>https://lovector.me/tags/mac/</guid>
       <description></description>
     </item>
     
     <item>
       <title>端口</title>
-      <link>https://isees.github.io/tags/%E7%AB%AF%E5%8F%A3/</link>
+      <link>https://lovector.me/tags/%E7%AB%AF%E5%8F%A3/</link>
       <pubDate>Tue, 05 Nov 2019 04:11:50 +0800</pubDate>
       
-      <guid>https://isees.github.io/tags/%E7%AB%AF%E5%8F%A3/</guid>
+      <guid>https://lovector.me/tags/%E7%AB%AF%E5%8F%A3/</guid>
       <description></description>
     </item>
     
     <item>
       <title>进程</title>
-      <link>https://isees.github.io/tags/%E8%BF%9B%E7%A8%8B/</link>
+      <link>https://lovector.me/tags/%E8%BF%9B%E7%A8%8B/</link>
       <pubDate>Tue, 05 Nov 2019 04:11:50 +0800</pubDate>
       
-      <guid>https://isees.github.io/tags/%E8%BF%9B%E7%A8%8B/</guid>
+      <guid>https://lovector.me/tags/%E8%BF%9B%E7%A8%8B/</guid>
       <description></description>
     </item>
     
     <item>
       <title>samba</title>
-      <link>https://isees.github.io/tags/samba/</link>
+      <link>https://lovector.me/tags/samba/</link>
       <pubDate>Thu, 08 Aug 2019 16:08:23 +0800</pubDate>
       
-      <guid>https://isees.github.io/tags/samba/</guid>
+      <guid>https://lovector.me/tags/samba/</guid>
       <description></description>
     </item>
     
     <item>
       <title>raid</title>
-      <link>https://isees.github.io/tags/raid/</link>
+      <link>https://lovector.me/tags/raid/</link>
       <pubDate>Wed, 07 Aug 2019 19:46:29 +0800</pubDate>
       
-      <guid>https://isees.github.io/tags/raid/</guid>
+      <guid>https://lovector.me/tags/raid/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ubuntu</title>
-      <link>https://isees.github.io/tags/ubuntu/</link>
+      <link>https://lovector.me/tags/ubuntu/</link>
       <pubDate>Wed, 07 Aug 2019 19:46:29 +0800</pubDate>
       
-      <guid>https://isees.github.io/tags/ubuntu/</guid>
+      <guid>https://lovector.me/tags/ubuntu/</guid>
       <description></description>
     </item>
     
     <item>
       <title>zfs</title>
-      <link>https://isees.github.io/tags/zfs/</link>
+      <link>https://lovector.me/tags/zfs/</link>
       <pubDate>Wed, 07 Aug 2019 19:46:29 +0800</pubDate>
       
-      <guid>https://isees.github.io/tags/zfs/</guid>
+      <guid>https://lovector.me/tags/zfs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>anaconda</title>
-      <link>https://isees.github.io/tags/anaconda/</link>
+      <link>https://lovector.me/tags/anaconda/</link>
       <pubDate>Fri, 19 Jul 2019 16:33:32 +0800</pubDate>
       
-      <guid>https://isees.github.io/tags/anaconda/</guid>
+      <guid>https://lovector.me/tags/anaconda/</guid>
       <description></description>
     </item>
     
     <item>
       <title>conda</title>
-      <link>https://isees.github.io/tags/conda/</link>
+      <link>https://lovector.me/tags/conda/</link>
       <pubDate>Fri, 19 Jul 2019 16:33:32 +0800</pubDate>
       
-      <guid>https://isees.github.io/tags/conda/</guid>
+      <guid>https://lovector.me/tags/conda/</guid>
       <description></description>
     </item>
     
     <item>
       <title>python</title>
-      <link>https://isees.github.io/tags/python/</link>
+      <link>https://lovector.me/tags/python/</link>
       <pubDate>Fri, 19 Jul 2019 16:33:32 +0800</pubDate>
       
-      <guid>https://isees.github.io/tags/python/</guid>
+      <guid>https://lovector.me/tags/python/</guid>
       <description></description>
     </item>
     
     <item>
       <title>vscode</title>
-      <link>https://isees.github.io/tags/vscode/</link>
+      <link>https://lovector.me/tags/vscode/</link>
       <pubDate>Fri, 19 Jul 2019 16:33:32 +0800</pubDate>
       
-      <guid>https://isees.github.io/tags/vscode/</guid>
+      <guid>https://lovector.me/tags/vscode/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ssh</title>
-      <link>https://isees.github.io/tags/ssh/</link>
+      <link>https://lovector.me/tags/ssh/</link>
       <pubDate>Wed, 10 Jul 2019 21:20:45 +0800</pubDate>
       
-      <guid>https://isees.github.io/tags/ssh/</guid>
+      <guid>https://lovector.me/tags/ssh/</guid>
       <description></description>
     </item>
     
     <item>
       <title>wifi</title>
-      <link>https://isees.github.io/tags/wifi/</link>
+      <link>https://lovector.me/tags/wifi/</link>
       <pubDate>Tue, 23 Oct 2018 11:25:01 +0800</pubDate>
       
-      <guid>https://isees.github.io/tags/wifi/</guid>
+      <guid>https://lovector.me/tags/wifi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>search</title>
-      <link>https://isees.github.io/tags/search/</link>
+      <link>https://lovector.me/tags/search/</link>
       <pubDate>Sun, 21 Oct 2018 17:27:15 +0800</pubDate>
       
-      <guid>https://isees.github.io/tags/search/</guid>
+      <guid>https://lovector.me/tags/search/</guid>
       <description></description>
     </item>
     
     <item>
       <title>disk</title>
-      <link>https://isees.github.io/tags/disk/</link>
+      <link>https://lovector.me/tags/disk/</link>
       <pubDate>Thu, 18 Oct 2018 00:32:56 +0800</pubDate>
       
-      <guid>https://isees.github.io/tags/disk/</guid>
+      <guid>https://lovector.me/tags/disk/</guid>
       <description></description>
     </item>
     
     <item>
       <title>mount</title>
-      <link>https://isees.github.io/tags/mount/</link>
+      <link>https://lovector.me/tags/mount/</link>
       <pubDate>Tue, 16 Oct 2018 00:12:53 +0800</pubDate>
       
-      <guid>https://isees.github.io/tags/mount/</guid>
+      <guid>https://lovector.me/tags/mount/</guid>
       <description></description>
     </item>
     
     <item>
       <title>bash</title>
-      <link>https://isees.github.io/tags/bash/</link>
+      <link>https://lovector.me/tags/bash/</link>
       <pubDate>Sun, 06 May 2018 20:28:00 +0800</pubDate>
       
-      <guid>https://isees.github.io/tags/bash/</guid>
+      <guid>https://lovector.me/tags/bash/</guid>
       <description></description>
     </item>
     
     <item>
       <title>script</title>
-      <link>https://isees.github.io/tags/script/</link>
+      <link>https://lovector.me/tags/script/</link>
       <pubDate>Sun, 06 May 2018 20:28:00 +0800</pubDate>
       
-      <guid>https://isees.github.io/tags/script/</guid>
+      <guid>https://lovector.me/tags/script/</guid>
       <description></description>
     </item>
     
     <item>
       <title>unix</title>
-      <link>https://isees.github.io/tags/unix/</link>
+      <link>https://lovector.me/tags/unix/</link>
       <pubDate>Sun, 06 May 2018 20:28:00 +0800</pubDate>
       
-      <guid>https://isees.github.io/tags/unix/</guid>
+      <guid>https://lovector.me/tags/unix/</guid>
       <description></description>
     </item>
     
     <item>
       <title>android</title>
-      <link>https://isees.github.io/tags/android/</link>
+      <link>https://lovector.me/tags/android/</link>
       <pubDate>Sun, 15 Apr 2018 19:00:00 +0800</pubDate>
       
-      <guid>https://isees.github.io/tags/android/</guid>
+      <guid>https://lovector.me/tags/android/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sdk</title>
-      <link>https://isees.github.io/tags/sdk/</link>
+      <link>https://lovector.me/tags/sdk/</link>
       <pubDate>Sun, 15 Apr 2018 19:00:00 +0800</pubDate>
       
-      <guid>https://isees.github.io/tags/sdk/</guid>
+      <guid>https://lovector.me/tags/sdk/</guid>
       <description></description>
     </item>
     
     <item>
       <title>手游</title>
-      <link>https://isees.github.io/tags/%E6%89%8B%E6%B8%B8/</link>
+      <link>https://lovector.me/tags/%E6%89%8B%E6%B8%B8/</link>
       <pubDate>Sun, 15 Apr 2018 19:00:00 +0800</pubDate>
       
-      <guid>https://isees.github.io/tags/%E6%89%8B%E6%B8%B8/</guid>
+      <guid>https://lovector.me/tags/%E6%89%8B%E6%B8%B8/</guid>
       <description></description>
     </item>
     
     <item>
       <title>docker</title>
-      <link>https://isees.github.io/tags/docker/</link>
+      <link>https://lovector.me/tags/docker/</link>
       <pubDate>Wed, 04 Apr 2018 05:11:11 +0800</pubDate>
       
-      <guid>https://isees.github.io/tags/docker/</guid>
+      <guid>https://lovector.me/tags/docker/</guid>
       <description></description>
     </item>
     
     <item>
       <title>mongodb</title>
-      <link>https://isees.github.io/tags/mongodb/</link>
+      <link>https://lovector.me/tags/mongodb/</link>
       <pubDate>Wed, 04 Apr 2018 05:11:11 +0800</pubDate>
       
-      <guid>https://isees.github.io/tags/mongodb/</guid>
+      <guid>https://lovector.me/tags/mongodb/</guid>
       <description></description>
     </item>
     
     <item>
       <title>centos</title>
-      <link>https://isees.github.io/tags/centos/</link>
+      <link>https://lovector.me/tags/centos/</link>
       <pubDate>Sun, 01 Apr 2018 19:19:23 +0800</pubDate>
       
-      <guid>https://isees.github.io/tags/centos/</guid>
+      <guid>https://lovector.me/tags/centos/</guid>
       <description></description>
     </item>
     
     <item>
       <title>.bashrc</title>
-      <link>https://isees.github.io/tags/.bashrc/</link>
+      <link>https://lovector.me/tags/.bashrc/</link>
       <pubDate>Thu, 22 Mar 2018 14:52:16 +0800</pubDate>
       
-      <guid>https://isees.github.io/tags/.bashrc/</guid>
+      <guid>https://lovector.me/tags/.bashrc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>x os</title>
-      <link>https://isees.github.io/tags/x-os/</link>
+      <link>https://lovector.me/tags/x-os/</link>
       <pubDate>Thu, 22 Mar 2018 14:52:16 +0800</pubDate>
       
-      <guid>https://isees.github.io/tags/x-os/</guid>
+      <guid>https://lovector.me/tags/x-os/</guid>
       <description></description>
     </item>
     
     <item>
       <title>fork</title>
-      <link>https://isees.github.io/tags/fork/</link>
+      <link>https://lovector.me/tags/fork/</link>
       <pubDate>Wed, 28 Feb 2018 15:50:07 +0800</pubDate>
       
-      <guid>https://isees.github.io/tags/fork/</guid>
+      <guid>https://lovector.me/tags/fork/</guid>
       <description></description>
     </item>
     
     <item>
       <title>github</title>
-      <link>https://isees.github.io/tags/github/</link>
+      <link>https://lovector.me/tags/github/</link>
       <pubDate>Wed, 28 Feb 2018 15:50:07 +0800</pubDate>
       
-      <guid>https://isees.github.io/tags/github/</guid>
+      <guid>https://lovector.me/tags/github/</guid>
       <description></description>
     </item>
     
     <item>
       <title>2018</title>
-      <link>https://isees.github.io/tags/2018/</link>
+      <link>https://lovector.me/tags/2018/</link>
       <pubDate>Fri, 23 Feb 2018 00:46:22 +0800</pubDate>
       
-      <guid>https://isees.github.io/tags/2018/</guid>
+      <guid>https://lovector.me/tags/2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>begin</title>
-      <link>https://isees.github.io/tags/begin/</link>
+      <link>https://lovector.me/tags/begin/</link>
       <pubDate>Fri, 23 Feb 2018 00:46:22 +0800</pubDate>
       
-      <guid>https://isees.github.io/tags/begin/</guid>
+      <guid>https://lovector.me/tags/begin/</guid>
       <description></description>
     </item>
     

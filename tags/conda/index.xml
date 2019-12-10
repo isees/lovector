@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>conda on LOVECTOR</title>
-    <link>https://isees.github.io/tags/conda/</link>
+    <link>https://lovector.me/tags/conda/</link>
     <description>Recent content in conda on LOVECTOR</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2018. All rights reserved.</copyright>
     <lastBuildDate>Fri, 19 Jul 2019 16:33:32 +0800</lastBuildDate>
     
-	<atom:link href="https://isees.github.io/tags/conda/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lovector.me/tags/conda/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Vscode activates conda but points to the default python</title>
-      <link>https://isees.github.io/post/vscode_activates_conda_but_points_to_the_default_python/</link>
+      <link>https://lovector.me/post/vscode_activates_conda_but_points_to_the_default_python/</link>
       <pubDate>Fri, 19 Jul 2019 16:33:32 +0800</pubDate>
       
-      <guid>https://isees.github.io/post/vscode_activates_conda_but_points_to_the_default_python/</guid>
+      <guid>https://lovector.me/post/vscode_activates_conda_but_points_to_the_default_python/</guid>
       <description>Behavior When conda activate env, terminal states that env is activated - prints (env) at the beginning of the line. Same with the interpreter - VScode sees it and I am able to select it.
 However, which python points to the default python on MacOS, and therefore none python 3.6-dependent packages work. Same with the interpreter - VScode fails to find packages which are installed in the env
 How to solve 1.</description>

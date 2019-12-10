@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2018 on LOVECTOR</title>
-    <link>https://isees.github.io/tags/2018/</link>
+    <link>https://lovector.me/tags/2018/</link>
     <description>Recent content in 2018 on LOVECTOR</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2018. All rights reserved.</copyright>
     <lastBuildDate>Fri, 23 Feb 2018 00:46:22 +0800</lastBuildDate>
     
-	<atom:link href="https://isees.github.io/tags/2018/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lovector.me/tags/2018/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>!H</title>
-      <link>https://isees.github.io/post/hi/</link>
+      <link>https://lovector.me/post/hi/</link>
       <pubDate>Fri, 23 Feb 2018 00:46:22 +0800</pubDate>
       
-      <guid>https://isees.github.io/post/hi/</guid>
+      <guid>https://lovector.me/post/hi/</guid>
       <description>“Those who cannot change their minds cannot change anything.” ― George Bernard Shaw 想用一种新的方式来记录2018. So this is it :)</description>
     </item>
     
