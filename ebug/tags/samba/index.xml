@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>samba on LOVECTOR</title>
+    <link>http://localhost:1313/tags/samba/</link>
+    <description>Recent content in samba on LOVECTOR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; 2018. All rights reserved.</copyright>
+    <lastBuildDate>Mon, 15 Oct 2018 23:56:23 +0800</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/samba/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to create a network share via Samba via CLI</title>
+      <link>http://localhost:1313/post/samba_folder_share/</link>
+      <pubDate>Mon, 15 Oct 2018 23:56:23 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/samba_folder_share/</guid>
+      <description>1. Install Samba sudo apt-get update sudo apt-get install samba  2. Set a password for your user in Samba sudo smbpasswd -a &amp;lt;user_name&amp;gt;  3. Create a directory to be shared mkdir /home/&amp;lt;user_name&amp;gt;/&amp;lt;folder_name&amp;gt;  4. Make a safe backup copy of the original smb.conf file to your home folder, in case you make an error sudo cp /etc/samba/smb.conf ~  5. Edit the file &amp;ldquo;/etc/samba/smb.conf&amp;rdquo; sudo vim /etc/samba/smb.conf  6.</description>
+    </item>
+    
+  </channel>
+</rss>

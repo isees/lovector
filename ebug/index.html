@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="generator" content="Hugo 0.55.6" />
+
+  <title>LOVECTOR</title>
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="http://localhost:1313/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="http://localhost:1313/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="http://localhost:1313/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
+  <link rel="alternate" type="application/rss+xml" title="LOVECTOR" href="http://localhost:1313/index.xml" />
+  
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/androidstudio.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+  
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+
+  <link rel="shortcut icon" href="http://localhost:1313/img/favicon.ico" type="image/x-icon" />
+
+  
+    <link rel="stylesheet" href="http://localhost:1313/css/my.css">
+  
+  
+    <script src="http://localhost:1313/js/my.js"></script>
+  
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+    
+    <span></span>
+</a>
+<div id="menu">
+
+
+  <a class="pure-menu-heading brand" href="http://localhost:1313/">LOVECTOR</a>
+
+
+    <div class="pure-menu">
+        <ul class="pure-menu-list">
+        
+        
+        <li class="pure-menu-item">
+            <a class="pure-menu-link" href="http://localhost:1313/"><i class='fa fa-home fa-fw'></i>Home</a>
+        
+        </li>
+        
+        
+        <li class="pure-menu-item">
+            <a class="pure-menu-link" href="http://localhost:1313/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
+        
+        </li>
+        
+        
+        <li class="pure-menu-item">
+            <a class="pure-menu-link" href="http://localhost:1313/tags/"><i class='fa fa-tag fa-fw'></i>Tags</a>
+        
+        </li>
+        
+        
+        <li class="pure-menu-item">
+            <a class="pure-menu-link" href="http://localhost:1313/topics/"><i class='fa fa-slack fa-fw'></i>Topics</a>
+        
+        </li>
+        
+        
+        <li class="pure-menu-item">
+            <a class="pure-menu-link" href="http://localhost:1313/about/"><i class='fa fa-user fa-fw'></i>About</a>
+        
+        </li>
+        
+        </ul>
+    </div>
+
+<div class="pure-menu social">
+    <ul class="pure-menu-list">
+
+    
+
+        
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+        
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+        
+
+    
+
+    
+
+        
+
+    
+
+    
+
+        
+
+    
+        <li class="pure-menu-item">
+            <a class="pure-menu-link" href="https://github.com/isees" target="_blank"><i
+                    class="fa fa-github-square fa-fw"></i>GitHub</a>
+        </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+        
+
+    
+
+    
+
+        
+
+    
+
+    
+
+        
+
+    
+
+    </ul>
+</div>
+
+
+<div>
+  <div class="small-print">
+    <small>&copy; 2018. All rights reserved.</small>
+  </div>
+  <div class="small-print">
+    
+    
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+
+  
+  
+
+
+<div class="content">
+  
+    <article>
+  <header>
+    <h2><a href="http://localhost:1313/post/connecting_to_server_with_ssh/">Connecting to server via ssh</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>10 Jul 2019, 21:20</time>
+  </div>
+
+  
+
+  
+  
+  
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="http://localhost:1313/tags/ssh">ssh</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="http://localhost:1313/tags/linux">linux</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="http://localhost:1313/tags/mac">mac</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+   1. Generate a Key Pair $ ssh-keygen -t rsa -b 4096  2. Upload your Public Key $ ssh-copy-id -i KEYNAME USERNAME@IP -p PORT  3. Connecting to server via ssh $ ssh -i KEYNAME -p 'PORT' 'USERNAME@IP'  References  https://www.linode.com/docs/security/authentication/use-public-key-authentication-with-ssh/  
+  </p>
+
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="http://localhost:1313/post/zpool_status_errors/">zpool status: too many errors</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>01 Nov 2018, 16:48</time>
+  </div>
+
+  
+
+  
+  
+  
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="http://localhost:1313/tags/linux">linux</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="http://localhost:1313/tags/zfs">zfs</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+   CHECK THE CABLE AND POWER CHECK THE STATUS OF THE SPECIFIC DISK smartctl -a /dev/sde  Clear zpool clear tank  SCRUB AT LEAST ONCE PER MONTH zpool scrub tank #stop scrubbing: zpool scrub -s tank  CHECK STATUS zpool status -v  
+  </p>
+
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="http://localhost:1313/post/connect_to_wifi_linux/">Connect to WiFi network through terminal</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>23 Oct 2018, 11:25</time>
+  </div>
+
+  
+
+  
+  
+  
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="http://localhost:1313/tags/linux">linux</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="http://localhost:1313/tags/wifi">wifi</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  0. check network interface card status ip addr ip link ip -s link  1. ip for all network interfaces, including setting up and down: ip link set wlan0 up ip link set wlan0 down ip help ip link help ip addr help  2. iw for wireless extensions (needs to be called as root): iw dev iw phy iw wlan0 scan iw wlan0 station dump iw help  3.
+  </p>
+
+  
+  <footer>
+    <a href="http://localhost:1313/post/connect_to_wifi_linux/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="http://localhost:1313/post/mv_after_find/">Mv after find</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>21 Oct 2018, 17:27</time>
+  </div>
+
+  
+
+  
+  
+  
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="http://localhost:1313/tags/linux">linux</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="http://localhost:1313/tags/search">search</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  find path_A -name '*AAA*' -exec mv -t path_B {} +  That will use find&rsquo;s -exec option which replaces the {} with each find result in turn and runs the command you give it. As explained in man find:
+-exec command ; Execute command; true if 0 status is returned. All following arguments to find are taken to be arguments to the command until an argument consisting of ';' is encountered.
+  </p>
+
+  
+  <footer>
+    <a href="http://localhost:1313/post/mv_after_find/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="http://localhost:1313/post/check_disk_space_command/">Linux Check Disk Space Command</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>18 Oct 2018, 00:32</time>
+  </div>
+
+  
+
+  
+  
+  
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="http://localhost:1313/tags/disk">disk</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="http://localhost:1313/tags/linux">linux</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  Linux command to check disk space  df command - Shows the amount of disk space used and available on Linux file systems. du command - Display the amount of disk space used by the specified files and for each subdirectory. btrfs fi df /device/ - Show disk space usage information for a btrfs based mount point/file system.  Read more
+  </p>
+
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="http://localhost:1313/post/detect_and_mount_devices/">Detect and mount devices</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>16 Oct 2018, 00:12</time>
+  </div>
+
+  
+
+  
+  
+  
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="http://localhost:1313/tags/linux">linux</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="http://localhost:1313/tags/mount">mount</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+   1. Check the blockdevices and the file systems that are assigned to those block devices. lsblk  2. What kind of device? sudo lshw|less  3. Mounting the USB-stick sudo mkdir /media/usbstick sudo mount /dev/sdf2 /media/usbstick  4. Did it work? lsblk  
+  </p>
+
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="http://localhost:1313/post/samba_folder_share/">How to create a network share via Samba via CLI</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>15 Oct 2018, 23:56</time>
+  </div>
+
+  
+
+  
+  
+  
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="http://localhost:1313/tags/samba">samba</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="http://localhost:1313/tags/linux">linux</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  1. Install Samba sudo apt-get update sudo apt-get install samba  2. Set a password for your user in Samba sudo smbpasswd -a &lt;user_name&gt;  3. Create a directory to be shared mkdir /home/&lt;user_name&gt;/&lt;folder_name&gt;  4. Make a safe backup copy of the original smb.conf file to your home folder, in case you make an error sudo cp /etc/samba/smb.conf ~  5. Edit the file &ldquo;/etc/samba/smb.conf&rdquo; sudo vim /etc/samba/smb.conf  6.
+  </p>
+
+  
+  <footer>
+    <a href="http://localhost:1313/post/samba_folder_share/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="http://localhost:1313/post/learning_unix_script/">UNIX脚本入门</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>06 May 2018, 20:28</time>
+  </div>
+
+  
+
+  
+  
+  
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="http://localhost:1313/tags/unix">unix</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="http://localhost:1313/tags/bash">bash</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="http://localhost:1313/tags/script">script</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  学习一门新的语言可以先从基本逻辑语法下手, 如 if, else, for, while, switch. 可以从以下示例代码中了解基本语法结构: #!/bin/bash echo 'Hi there :)' for file in * do if [ -f &quot;$file&quot; ] then echo &quot;FILE $file&quot; else echo &quot;DIR $file&quot; fi
+  </p>
+
+  
+  <footer>
+    <a href="http://localhost:1313/post/learning_unix_script/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="http://localhost:1313/post/android_game_terms/">手游圈常用术语</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>15 Apr 2018, 19:00</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="http://localhost:1313/tags/android">android</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="http://localhost:1313/tags/%E6%89%8B%E6%B8%B8">手游</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="http://localhost:1313/tags/sdk">sdk</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  一、手游行业常见名词解释 手游开发商——也叫CP，即ContentProvider内容提供商的英文首字母缩写，顾名思义，就是指制作手游产品的公
+  </p>
+
+  
+  <footer>
+    <a href="http://localhost:1313/post/android_game_terms/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="http://localhost:1313/post/running_mongo_using_docker/">通过Docker运行MongoDB</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>04 Apr 2018, 05:11</time>
+  </div>
+
+  
+
+  
+  
+  
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="http://localhost:1313/tags/mongodb">mongodb</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="http://localhost:1313/tags/docker">docker</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="http://localhost:1313/tags/linux">linux</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  运行 启动mongo实例 $ docker run --name some-mongo -d mongo 连接测试 $ docker run -it --link some-mongo:mongo --rm mongo sh -c 'exec mongo &quot;$MONGO_PORT_27017_TCP_ADDR:$MONGO_PORT_27017_TCP_PORT/test&quot;' MongoDB shell version v3.6.3 connecting to: mongodb://172.17.0.2:27017/test MongoDB server version: 3.6.3 Welcome to the MongoDB shell. For interactive help, type &quot;help&quot;. For more comprehensive documentation, see http://docs.mongodb.org/ Questions? Try the support group http://groups.google.com/group/mongodb-user Server has
+  </p>
+
+  
+  <footer>
+    <a href="http://localhost:1313/post/running_mongo_using_docker/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+
+  
+
+
+<nav class="pagination" role="pagination">
+  
+  <i class="fa fa-chevron-left"></i>
+  
+  <span>&nbsp;1 / 2&nbsp;</span>
+  
+  <a href="http://localhost:1313/page/2/"><i class="fa fa-chevron-right"></i></a>
+  
+</nav>
+
+
+
+</div>
+
+</div>
+</div>
+<script src="http://localhost:1313/js/ui.js"></script>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-114659566-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+
+
+<script data-no-instant>document.write('<script src="/livereload.js?port=1313&mindelay=10"></' + 'script>')</script></body>
+</html>
+

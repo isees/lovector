@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>zfs on LOVECTOR</title>
+    <link>http://localhost:1313/tags/zfs/</link>
+    <description>Recent content in zfs on LOVECTOR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; 2018. All rights reserved.</copyright>
+    <lastBuildDate>Thu, 01 Nov 2018 16:48:47 +0800</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/zfs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>zpool status: too many errors</title>
+      <link>http://localhost:1313/post/zpool_status_errors/</link>
+      <pubDate>Thu, 01 Nov 2018 16:48:47 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/zpool_status_errors/</guid>
+      <description> CHECK THE CABLE AND POWER CHECK THE STATUS OF THE SPECIFIC DISK smartctl -a /dev/sde  Clear zpool clear tank  SCRUB AT LEAST ONCE PER MONTH zpool scrub tank #stop scrubbing: zpool scrub -s tank  CHECK STATUS zpool status -v  </description>
+    </item>
+    
+  </channel>
+</rss>

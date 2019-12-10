@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>script on LOVECTOR</title>
+    <link>http://localhost:1313/tags/script/</link>
+    <description>Recent content in script on LOVECTOR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; 2018. All rights reserved.</copyright>
+    <lastBuildDate>Sun, 06 May 2018 20:28:00 +0800</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/script/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>UNIX脚本入门</title>
+      <link>http://localhost:1313/post/learning_unix_script/</link>
+      <pubDate>Sun, 06 May 2018 20:28:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/learning_unix_script/</guid>
+      <description>学习一门新的语言可以先从基本逻辑语法下手, 如 if, else, for, while, switch. 可以从以下示例代码中了解基本语法结构: #!/bin/bash echo &#39;Hi there :)&#39; for file in * do if [ -f &amp;quot;$file&amp;quot; ] then echo &amp;quot;FILE $file&amp;quot; else echo &amp;quot;DIR $file&amp;quot; fi</description>
+    </item>
+    
+  </channel>
+</rss>
