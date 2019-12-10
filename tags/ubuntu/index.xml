@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ubuntu on LOVECTOR</title>
-    <link>https://isees.github.io/tags/ubuntu/</link>
+    <link>https://lovector.me/tags/ubuntu/</link>
     <description>Recent content in ubuntu on LOVECTOR</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2018. All rights reserved.</copyright>
     <lastBuildDate>Wed, 07 Aug 2019 19:46:29 +0800</lastBuildDate>
     
-	<atom:link href="https://isees.github.io/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lovector.me/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>ZFS - CREATE DISK POOLS</title>
-      <link>https://isees.github.io/post/zfs_create_disk_pools/</link>
+      <link>https://lovector.me/post/zfs_create_disk_pools/</link>
       <pubDate>Wed, 07 Aug 2019 19:46:29 +0800</pubDate>
       
-      <guid>https://isees.github.io/post/zfs_create_disk_pools/</guid>
+      <guid>https://lovector.me/post/zfs_create_disk_pools/</guid>
       <description>This tutorial will cover how to create pools with different RAID levels.
  singular/basic (no RAID) raidz raidz2 raid 0 raid 10  Creating the pools by specifying disks like /dev/sda and /dev/sdb is somewhat dangerous. Your pool could become degraded or disappear if you plug in another drive and all the letters change. To remedy this, use paths with /dev/disk/by-id/... instead.
 Also, if your pool does become degraded because of the situation described above, running those export/import commands will fix the situation, even if you have already written data since the pool became degraded.</description>
@@ -24,10 +24,10 @@ Also, if your pool does become degraded because of the situation described above
     
     <item>
       <title>如何在linux系统启动时执行脚本/命令?</title>
-      <link>https://isees.github.io/post/how_to_run_scripts_on_start_up/</link>
+      <link>https://lovector.me/post/how_to_run_scripts_on_start_up/</link>
       <pubDate>Sun, 01 Apr 2018 19:19:23 +0800</pubDate>
       
-      <guid>https://isees.github.io/post/how_to_run_scripts_on_start_up/</guid>
+      <guid>https://lovector.me/post/how_to_run_scripts_on_start_up/</guid>
       <description>登录终端时运行 如果需要在终端登录时自动运行脚本, 可以在~/.bash_login文件中添加命令. Ubuntu 14.04或后续版本 将以下命令保存到xxx</description>
     </item>
     

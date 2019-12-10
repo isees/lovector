@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LOVECTOR</title>
-    <link>https://isees.github.io/</link>
+    <link>https://lovector.me/</link>
     <description>Recent content on LOVECTOR</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2018. All rights reserved.</copyright>
     <lastBuildDate>Tue, 05 Nov 2019 04:11:50 +0800</lastBuildDate>
     
-	<atom:link href="https://isees.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lovector.me/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Linux进程与端口相互查询</title>
-      <link>https://isees.github.io/post/linux%E8%BF%9B%E7%A8%8B%E4%B8%8E%E7%AB%AF%E5%8F%A3%E7%9B%B8%E4%BA%92%E6%9F%A5%E8%AF%A2/</link>
+      <link>https://lovector.me/post/linux%E8%BF%9B%E7%A8%8B%E4%B8%8E%E7%AB%AF%E5%8F%A3%E7%9B%B8%E4%BA%92%E6%9F%A5%E8%AF%A2/</link>
       <pubDate>Tue, 05 Nov 2019 04:11:50 +0800</pubDate>
       
-      <guid>https://isees.github.io/post/linux%E8%BF%9B%E7%A8%8B%E4%B8%8E%E7%AB%AF%E5%8F%A3%E7%9B%B8%E4%BA%92%E6%9F%A5%E8%AF%A2/</guid>
+      <guid>https://lovector.me/post/linux%E8%BF%9B%E7%A8%8B%E4%B8%8E%E7%AB%AF%E5%8F%A3%E7%9B%B8%E4%BA%92%E6%9F%A5%E8%AF%A2/</guid>
       <description>通过进程查询端口 查询获取进程PID $ ps aux|grep aria2c isees 2704 1.4 0.1 100772 12912 ? Rs 03:36 0:39 aria2c -D isees 3132 0.0 0.0 15964 972 pts/0 S+ 04:20 0:00 grep --color=auto aria2c 通过进程PID查询获取占用端口 $ sudo netstat -nap|grep 2704 tcp 0 0 0.0.0.0:6881</description>
     </item>
     
     <item>
       <title>How to create a network share via Samba via CLI</title>
-      <link>https://isees.github.io/post/samba_folder_share/</link>
+      <link>https://lovector.me/post/samba_folder_share/</link>
       <pubDate>Thu, 08 Aug 2019 16:08:23 +0800</pubDate>
       
-      <guid>https://isees.github.io/post/samba_folder_share/</guid>
+      <guid>https://lovector.me/post/samba_folder_share/</guid>
       <description>1. Install Samba sudo apt-get update sudo apt-get install samba  2. Set a password for your user in Samba sudo smbpasswd -a &amp;lt;user_name&amp;gt;  3. Create a directory to be shared mkdir /home/&amp;lt;user_name&amp;gt;/&amp;lt;folder_name&amp;gt;  4. Make a safe backup copy of the original smb.conf file to your home folder, in case you make an error sudo cp /etc/samba/smb.conf ~  5. Edit the file &amp;ldquo;/etc/samba/smb.conf&amp;rdquo; sudo vim /etc/samba/smb.conf  smb.</description>
     </item>
     
     <item>
       <title>ZFS - CREATE DISK POOLS</title>
-      <link>https://isees.github.io/post/zfs_create_disk_pools/</link>
+      <link>https://lovector.me/post/zfs_create_disk_pools/</link>
       <pubDate>Wed, 07 Aug 2019 19:46:29 +0800</pubDate>
       
-      <guid>https://isees.github.io/post/zfs_create_disk_pools/</guid>
+      <guid>https://lovector.me/post/zfs_create_disk_pools/</guid>
       <description>This tutorial will cover how to create pools with different RAID levels.
  singular/basic (no RAID) raidz raidz2 raid 0 raid 10  Creating the pools by specifying disks like /dev/sda and /dev/sdb is somewhat dangerous. Your pool could become degraded or disappear if you plug in another drive and all the letters change. To remedy this, use paths with /dev/disk/by-id/... instead.
 Also, if your pool does become degraded because of the situation described above, running those export/import commands will fix the situation, even if you have already written data since the pool became degraded.</description>
@@ -42,10 +42,10 @@ Also, if your pool does become degraded because of the situation described above
     
     <item>
       <title>Vscode activates conda but points to the default python</title>
-      <link>https://isees.github.io/post/vscode_activates_conda_but_points_to_the_default_python/</link>
+      <link>https://lovector.me/post/vscode_activates_conda_but_points_to_the_default_python/</link>
       <pubDate>Fri, 19 Jul 2019 16:33:32 +0800</pubDate>
       
-      <guid>https://isees.github.io/post/vscode_activates_conda_but_points_to_the_default_python/</guid>
+      <guid>https://lovector.me/post/vscode_activates_conda_but_points_to_the_default_python/</guid>
       <description>Behavior When conda activate env, terminal states that env is activated - prints (env) at the beginning of the line. Same with the interpreter - VScode sees it and I am able to select it.
 However, which python points to the default python on MacOS, and therefore none python 3.6-dependent packages work. Same with the interpreter - VScode fails to find packages which are installed in the env
 How to solve 1.</description>
@@ -53,128 +53,128 @@ How to solve 1.</description>
     
     <item>
       <title>Connecting to server via ssh</title>
-      <link>https://isees.github.io/post/connecting_to_server_with_ssh/</link>
+      <link>https://lovector.me/post/connecting_to_server_with_ssh/</link>
       <pubDate>Wed, 10 Jul 2019 21:20:45 +0800</pubDate>
       
-      <guid>https://isees.github.io/post/connecting_to_server_with_ssh/</guid>
+      <guid>https://lovector.me/post/connecting_to_server_with_ssh/</guid>
       <description> 1. Generate a Key Pair $ ssh-keygen -t rsa -b 4096  2. Upload your Public Key $ ssh-copy-id -i KEYNAME USERNAME@IP -p PORT  3. Connecting to server via ssh $ ssh -i KEYNAME -p &#39;PORT&#39; &#39;USERNAME@IP&#39;  References  https://www.linode.com/docs/security/authentication/use-public-key-authentication-with-ssh/  </description>
     </item>
     
     <item>
       <title>zpool status: too many errors</title>
-      <link>https://isees.github.io/post/zpool_status_errors/</link>
+      <link>https://lovector.me/post/zpool_status_errors/</link>
       <pubDate>Thu, 01 Nov 2018 16:48:47 +0800</pubDate>
       
-      <guid>https://isees.github.io/post/zpool_status_errors/</guid>
+      <guid>https://lovector.me/post/zpool_status_errors/</guid>
       <description> CHECK THE CABLE AND POWER CHECK THE STATUS OF THE SPECIFIC DISK smartctl -a /dev/sde  Clear zpool clear tank  SCRUB AT LEAST ONCE PER MONTH zpool scrub tank #stop scrubbing: zpool scrub -s tank  CHECK STATUS zpool status -v  </description>
     </item>
     
     <item>
       <title>Connect to WiFi network through terminal</title>
-      <link>https://isees.github.io/post/connect_to_wifi_linux/</link>
+      <link>https://lovector.me/post/connect_to_wifi_linux/</link>
       <pubDate>Tue, 23 Oct 2018 11:25:01 +0800</pubDate>
       
-      <guid>https://isees.github.io/post/connect_to_wifi_linux/</guid>
+      <guid>https://lovector.me/post/connect_to_wifi_linux/</guid>
       <description>0. check network interface card status ip addr ip link ip -s link  1. ip for all network interfaces, including setting up and down: ip link set wlan0 up ip link set wlan0 down ip help ip link help ip addr help  2. iw for wireless extensions (needs to be called as root): iw dev iw phy iw wlan0 scan iw wlan0 station dump iw help  3.</description>
     </item>
     
     <item>
       <title>Mv after find</title>
-      <link>https://isees.github.io/post/mv_after_find/</link>
+      <link>https://lovector.me/post/mv_after_find/</link>
       <pubDate>Sun, 21 Oct 2018 17:27:15 +0800</pubDate>
       
-      <guid>https://isees.github.io/post/mv_after_find/</guid>
+      <guid>https://lovector.me/post/mv_after_find/</guid>
       <description>find path_A -name &#39;*AAA*&#39; -exec mv -t path_B {} +  That will use find&amp;rsquo;s -exec option which replaces the {} with each find result in turn and runs the command you give it. As explained in man find:
 -exec command ; Execute command; true if 0 status is returned. All following arguments to find are taken to be arguments to the command until an argument consisting of &#39;;&#39; is encountered.</description>
     </item>
     
     <item>
       <title>Linux Check Disk Space Command</title>
-      <link>https://isees.github.io/post/check_disk_space_command/</link>
+      <link>https://lovector.me/post/check_disk_space_command/</link>
       <pubDate>Thu, 18 Oct 2018 00:32:56 +0800</pubDate>
       
-      <guid>https://isees.github.io/post/check_disk_space_command/</guid>
+      <guid>https://lovector.me/post/check_disk_space_command/</guid>
       <description>Linux command to check disk space  df command - Shows the amount of disk space used and available on Linux file systems. du command - Display the amount of disk space used by the specified files and for each subdirectory. btrfs fi df /device/ - Show disk space usage information for a btrfs based mount point/file system.  Read more</description>
     </item>
     
     <item>
       <title>Detect and mount devices</title>
-      <link>https://isees.github.io/post/detect_and_mount_devices/</link>
+      <link>https://lovector.me/post/detect_and_mount_devices/</link>
       <pubDate>Tue, 16 Oct 2018 00:12:53 +0800</pubDate>
       
-      <guid>https://isees.github.io/post/detect_and_mount_devices/</guid>
+      <guid>https://lovector.me/post/detect_and_mount_devices/</guid>
       <description> 1. Check the blockdevices and the file systems that are assigned to those block devices. lsblk  2. What kind of device? sudo lshw|less  3. Mounting the USB-stick sudo mkdir /media/usbstick sudo mount /dev/sdf2 /media/usbstick  4. Did it work? lsblk  </description>
     </item>
     
     <item>
       <title>UNIX脚本入门</title>
-      <link>https://isees.github.io/post/learning_unix_script/</link>
+      <link>https://lovector.me/post/learning_unix_script/</link>
       <pubDate>Sun, 06 May 2018 20:28:00 +0800</pubDate>
       
-      <guid>https://isees.github.io/post/learning_unix_script/</guid>
+      <guid>https://lovector.me/post/learning_unix_script/</guid>
       <description>学习一门新的语言可以先从基本逻辑语法下手, 如 if, else, for, while, switch. 可以从以下示例代码中了解基本语法结构: #!/bin/bash echo &#39;Hi there :)&#39; for file in * do if [ -f &amp;quot;$file&amp;quot; ] then echo &amp;quot;FILE $file&amp;quot; else echo &amp;quot;DIR $file&amp;quot; fi</description>
     </item>
     
     <item>
       <title>手游圈常用术语</title>
-      <link>https://isees.github.io/post/android_game_terms/</link>
+      <link>https://lovector.me/post/android_game_terms/</link>
       <pubDate>Sun, 15 Apr 2018 19:00:00 +0800</pubDate>
       
-      <guid>https://isees.github.io/post/android_game_terms/</guid>
+      <guid>https://lovector.me/post/android_game_terms/</guid>
       <description>一、手游行业常见名词解释 手游开发商——也叫CP，即ContentProvider内容提供商的英文首字母缩写，顾名思义，就是指制作手游产品的公</description>
     </item>
     
     <item>
       <title>通过Docker运行MongoDB</title>
-      <link>https://isees.github.io/post/running_mongo_using_docker/</link>
+      <link>https://lovector.me/post/running_mongo_using_docker/</link>
       <pubDate>Wed, 04 Apr 2018 05:11:11 +0800</pubDate>
       
-      <guid>https://isees.github.io/post/running_mongo_using_docker/</guid>
+      <guid>https://lovector.me/post/running_mongo_using_docker/</guid>
       <description>运行 启动mongo实例 $ docker run --name some-mongo -d mongo 连接测试 $ docker run -it --link some-mongo:mongo --rm mongo sh -c &#39;exec mongo &amp;quot;$MONGO_PORT_27017_TCP_ADDR:$MONGO_PORT_27017_TCP_PORT/test&amp;quot;&#39; MongoDB shell version v3.6.3 connecting to: mongodb://172.17.0.2:27017/test MongoDB server version: 3.6.3 Welcome to the MongoDB shell. For interactive help, type &amp;quot;help&amp;quot;. For more comprehensive documentation, see http://docs.mongodb.org/ Questions? Try the support group http://groups.google.com/group/mongodb-user Server has</description>
     </item>
     
     <item>
       <title>如何在linux系统启动时执行脚本/命令?</title>
-      <link>https://isees.github.io/post/how_to_run_scripts_on_start_up/</link>
+      <link>https://lovector.me/post/how_to_run_scripts_on_start_up/</link>
       <pubDate>Sun, 01 Apr 2018 19:19:23 +0800</pubDate>
       
-      <guid>https://isees.github.io/post/how_to_run_scripts_on_start_up/</guid>
+      <guid>https://lovector.me/post/how_to_run_scripts_on_start_up/</guid>
       <description>登录终端时运行 如果需要在终端登录时自动运行脚本, 可以在~/.bash_login文件中添加命令. Ubuntu 14.04或后续版本 将以下命令保存到xxx</description>
     </item>
     
     <item>
       <title>~/.bashrc没有自动生效</title>
-      <link>https://isees.github.io/post/auto_activate_bashrc/</link>
+      <link>https://lovector.me/post/auto_activate_bashrc/</link>
       <pubDate>Thu, 22 Mar 2018 14:52:16 +0800</pubDate>
       
-      <guid>https://isees.github.io/post/auto_activate_bashrc/</guid>
+      <guid>https://lovector.me/post/auto_activate_bashrc/</guid>
       <description>大多数系统的~/.bashrc只是作用于未激活非登录状态的shell. 然而打开一个新的shell时, 它通常是一个未激活已登录的状态, 由于已登</description>
     </item>
     
     <item>
       <title>如何贡献项目</title>
-      <link>https://isees.github.io/post/how_to_contribute_code/</link>
+      <link>https://lovector.me/post/how_to_contribute_code/</link>
       <pubDate>Wed, 28 Feb 2018 15:50:07 +0800</pubDate>
       
-      <guid>https://isees.github.io/post/how_to_contribute_code/</guid>
+      <guid>https://lovector.me/post/how_to_contribute_code/</guid>
       <description>在GitHub上fork到自己的仓库, 如 isees/scrapy , 然后clone到本地, 并设置用户信息. $ git clone git@github.com:isees/scrapy.git $ cd scrapy 领取或创建新的Issue, 如issue 3146, 添加</description>
     </item>
     
     <item>
       <title>!H</title>
-      <link>https://isees.github.io/post/hi/</link>
+      <link>https://lovector.me/post/hi/</link>
       <pubDate>Fri, 23 Feb 2018 00:46:22 +0800</pubDate>
       
-      <guid>https://isees.github.io/post/hi/</guid>
+      <guid>https://lovector.me/post/hi/</guid>
       <description>“Those who cannot change their minds cannot change anything.” ― George Bernard Shaw 想用一种新的方式来记录2018. So this is it :)</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://isees.github.io/about/</link>
+      <link>https://lovector.me/about/</link>
       <pubDate>Thu, 22 Feb 2018 14:02:37 +0200</pubDate>
       
-      <guid>https://isees.github.io/about/</guid>
+      <guid>https://lovector.me/about/</guid>
       <description>“Those who cannot change their minds cannot change anything.”
 ― George Bernard Shaw
  email: 0vers00n4u@gmail.com  </description>
