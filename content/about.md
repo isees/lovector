@@ -10,7 +10,7 @@ hidden = true
 
 * * *
 
-![](https://user-images.githubusercontent.com/19368794/36813770-95b4b2c8-1d10-11e8-9833-a1a5ec51b257.png)
+<img style="max-width:800px;" src="https://user-images.githubusercontent.com/19368794/36813770-95b4b2c8-1d10-11e8-9833-a1a5ec51b257.png"/>
 
 * * *
 
