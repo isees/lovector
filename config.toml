@@ -10,7 +10,7 @@ hasCJKLanguage = true
 
 [indexes]
   tag = "tags"
-  topic = "topics"
+  # topic = "topics"
 
 [params]
   # Shown in the home page
@@ -27,12 +27,16 @@ hasCJKLanguage = true
   custom_css = ["css/my.css"]
   custom_js = ["js/my.js"]
 
-	enableRSS = false
 	enableToc = true
 
   # [params.piwikAnalytics]
     # siteid = 2
     # piwikroot = "//analytics.example.com/"
+
+[outputs]
+	home = ["HTML", "RSS"]
+	# home = ["HTML"]
+  section = ["HTML"]
 
 [menu]
   # Shown in the side menu.
@@ -84,15 +88,15 @@ hasCJKLanguage = true
   # weibo = "*"
   # tumblr = "*"
 
-  # SNS photo/video sharing
-  # instagram = "*"
-  # flickr = "*"
-  # photo500px = "*"
-  # pinterest = "*"
-  # youtube = "*"
-  # vimeo = "*"
-  # vine = "*"
-  # slideshare = "*"
+	# SNS photo/video sharing
+	# instagram = "*"
+	# flickr = "*"
+	# photo500px = "*"
+	# pinterest = "*"
+	# youtube = "*"
+	# vimeo = "*"
+	# vine = "*"
+	# slideshare = "*"
 
   # SNS career oriented
   # linkedin = "*"
