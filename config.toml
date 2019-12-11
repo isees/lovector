@@ -34,9 +34,11 @@ hasCJKLanguage = true
     # piwikroot = "//analytics.example.com/"
 
 [outputs]
-	home = ["HTML", "RSS"]
-	# home = ["HTML"]
-  section = ["HTML"]
+	# home = ["HTML", "RSS"]
+  # section = ["HTML", "RSS"]
+	# taxonomyTerm = ["HTML", "RSS"]
+	# taxonomy = ["HTML", "RSS"]
+	page = ["HTML", "RSS"]
 
 [menu]
   # Shown in the side menu.
