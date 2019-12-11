@@ -1,8 +1,15 @@
+<<<<<<< HEAD
 baseURL = "https://lovector.me/"
 title = "LOVECTOR"
 author = "isees"
 # Shown in the side menu
 # theme = "twentyfourteen"
+=======
+baseURL = "https://isees.github.io/"
+title = "LOVECTOR"
+author = "isees"
+# Shown in the side menu
+>>>>>>> 599416367886fa7fb840ac8b591bbc7849e6cb99
 theme = "blackburn"
 copyright = "&copy; 2018. All rights reserved."
 canonifyurls = true
@@ -55,12 +62,21 @@ hasCJKLanguage = true
     weight = 2
     identifier = "tags"
     url = "/tags/"
+<<<<<<< HEAD
 	# [[menu.main]]
 		# name = "Topics"
 		# pre = "<i class='fa fa-slack fa-fw'></i>"
 		# weight = 2
 		# identifier = "topics"
 		# url = "/topics/"
+=======
+  [[menu.main]]
+    name = "Topics"
+    pre = "<i class='fa fa-slack fa-fw'></i>"
+    weight = 2
+    identifier = "topics"
+    url = "/topics/"
+>>>>>>> 599416367886fa7fb840ac8b591bbc7849e6cb99
   [[menu.main]]
     name = "About"
     pre = "<i class='fa fa-user fa-fw'></i>"

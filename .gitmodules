@@ -2,9 +2,6 @@
 	path = public
 	url = git@github.com:isees/isees.github.io.git
 	branch = master
-[submodule "themes/twentyfourteen"]
-	path = themes/twentyfourteen
-	url = git@github.com:jaden/twentyfourteen.git
 [submodule "themes/blackburn"]
 	path = themes/blackburn
-	url = git@github.com:yoshiharuyamashita/blackburn.git
+	url = git@github.com:isees/blackburn.git
