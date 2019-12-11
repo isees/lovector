@@ -1,10 +1,6 @@
 +++
 title = "ZFS - CREATE DISK POOLS"
-<<<<<<< HEAD
 date = "2019-08-07T19:46:29+08:01"
-=======
-date = "2019-08-07T19:46:29+08:00"
->>>>>>> 599416367886fa7fb840ac8b591bbc7849e6cb99
 draft = false
 tags = ["zfs", "raid", "ubuntu"]
 topics = []
