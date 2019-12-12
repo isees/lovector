@@ -1,5 +1,5 @@
 +++
-title = "Git_submodules_with_public_and_private_repositories"
+Title = "Git Submodules With Public And Private Repositories"
 date = "2019-12-11T02:09:21+08:00"
 draft = true
 tags = []
