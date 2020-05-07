@@ -1,13 +1,13 @@
 +++
 title = "V2ray & Caddy Configuration"
 date = 2020-05-07T20:24:00+08:00
-draft = true
+draft = false
 tags = ["v2ray", "caddy", "ubuntu"]
 topics = []
 description = ""
 +++
 
-## #1 V2ray
+## #01 V2ray
 ---
 
 ### Install V2ray
@@ -58,13 +58,14 @@ vim /etc/v2ray/config.json
 }
 ```
 
-To start v2ray:
-```
-service v2ray restart
+### Start v2ray
+```bash
+$ systemctl start v2ray
+$ systemctl status v2ray
 ```
 
 
-## #2 Caddy
+## #02 Caddy
 ---
 
 ### Install Caddy
@@ -134,7 +135,8 @@ WantedBy=multi-user.target
 ```
 
 ### Reload & Run
-```
-systemctl daemon-reload
-systemctl start caddy
+```bash
+$ systemctl daemon-reload
+$ systemctl start caddy
+$ systemctl status caddy
 ```
