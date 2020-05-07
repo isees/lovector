@@ -140,3 +140,36 @@ $ systemctl daemon-reload
 $ systemctl start caddy
 $ systemctl status caddy
 ```
+
+## #03 Enable BBR
+
+Input *uname -r* to see whether the core version is not less than 4.9
+
+Run *lsmod | grep bbr*, if there's no *tcp_bbr* then run:
+```
+sudo modprobe tcp_bbr
+echo "tcp_bbr" | sudo tee --append /etc/modules-load.d/modules.conf
+```
+
+Run
+```
+echo "net.core.default_qdisc=fq" | sudo tee --append /etc/sysctl.conf
+echo "net.ipv4.tcp_congestion_control=bbr" | sudo tee --append /etc/sysctl.conf
+```
+
+Save config
+```
+sudo sysctl -p
+```
+
+Run
+```
+sysctl net.ipv4.tcp_available_congestion_control
+sysctl net.ipv4.tcp_congestion_control
+```
+
+Run *lsmod | grep bbr*, if you see *tcp_bbr* then it means BBR is startup. 
+
+## #04 References
+
+* [开启 TCP BBR 拥塞控制算法](https://github.com/iMeiji/shadowsocks_install/wiki/%E5%BC%80%E5%90%AF-TCP-BBR-%E6%8B%A5%E5%A1%9E%E6%8E%A7%E5%88%B6%E7%AE%97%E6%B3%95)
