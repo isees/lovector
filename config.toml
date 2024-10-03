@@ -1,47 +1,47 @@
 baseURL = "https://lovector.me/"
 title = "CORNER OF THE WORLD"
 author = "isees"
-# Shown in the side menu
-theme = "blackburn"
+theme = "hugo-book"
 copyright = "&copy; 2018. All rights reserved."
 canonifyurls = true
-paginate = 10
 hasCJKLanguage = true
 
-[indexes]
-  tag = "tags"
-  # topic = "topics"
+# 添加以下行
+disablePathToLower = true
+enableGitInfo = true
+
+# 如果您不需要分类和标签页面，可以添加以下行
+# disableKinds = ['taxonomy', 'taxonomyTerm']
 
 [params]
-  # Shown in the home page
+  # 保留您原有的参数
   subtitle = ""
   brand = "LOVECTOR"
-	googleAnalytics = "UA-114659566-1"
+  googleAnalytics = "UA-114659566-1"
   disqus = "lovector"
-  # CSS name for highlight.js
   highlightjs = "androidstudio"
   highlightjs_extra_languages = ["yaml"]
   dateFormat = "02 Jan 2006, 15:04"
-  # Include any custom CSS and/or JS files
-  # (relative to /static folder)
   custom_css = ["css/my.css"]
   custom_js = ["js/my.js"]
+  enableToc = true
 
-	enableToc = true
+  # 添加 hugo-book 特定的参数
+  BookTheme = 'light'
+  BookToC = true
+  BookSection = 'post'  # 使用 'post' 目录作为主要内容
+  BookSearch = true
+  BookComments = true
+  BookPortableLinks = true
+  BookServiceWorker = true
+  BookDateFormat = '2006-01-02'
 
-  # [params.piwikAnalytics]
-    # siteid = 2
-    # piwikroot = "//analytics.example.com/"
-
-[outputs]
-	# home = ["HTML", "RSS"]
-  # section = ["HTML", "RSS"]
-	# taxonomyTerm = ["HTML", "RSS"]
-	# taxonomy = ["HTML", "RSS"]
-	page = ["HTML", "RSS"]
+  # 如果您有 GitHub 仓库，可以添加以下行
+  # BookRepo = 'https://github.com/yourusername/your-repo'
+  # BookEditPath = 'edit/master'
 
 [menu]
-  # Shown in the side menu.
+  # 保留您原有的菜单配置
   [[menu.main]]
     name = "Home"
     pre = "<i class='fa fa-home fa-fw'></i>"
@@ -57,71 +57,22 @@ hasCJKLanguage = true
   [[menu.main]]
     name = "Tags"
     pre = "<i class='fa fa-tag fa-fw'></i>"
-    weight = 2
+    weight = 3
     identifier = "tags"
     url = "/tags/"
-	# [[menu.main]]
-		# name = "Topics"
-		# pre = "<i class='fa fa-slack fa-fw'></i>"
-		# weight = 2
-		# identifier = "topics"
-		# url = "/topics/"
   [[menu.main]]
     name = "About"
     pre = "<i class='fa fa-user fa-fw'></i>"
-    weight = 3
+    weight = 4
     identifier = "about"
     url = "/about/"
-  # [[menu.main]]
-    # name = "Contact"
-    # pre = "<i class='fa fa-phone fa-fw'></i>"
-    # weight = 4
-    # url = "/contact/"
 
 [social]
-  # Link your social networking accounts to the side menu
-  # by entering your username or ID.
+  # 保留您原有的社交媒体链接
+  github = "isees"
 
-  # SNS microblogging
-  # twitter = "*"
-  # gnusocial = "*" # Specify href (e.g. https://quitter.se/yourusername)
-  # facebook = "*"
-  # googleplus = "*"
-  # weibo = "*"
-  # tumblr = "*"
+# 移除 [pagination] 部分，因为 hugo-book 主题可能不使用这个配置
 
-	# SNS photo/video sharing
-	# instagram = "*"
-	# flickr = "*"
-	# photo500px = "*"
-	# pinterest = "*"
-	# youtube = "*"
-	# vimeo = "*"
-	# vine = "*"
-	# slideshare = "*"
-
-  # SNS career oriented
-  # linkedin = "*"
-  # xing = "*"
-
-  # SNS news
-  # reddit = "*"
-  # hackernews = "*"
-
-  # Techie
-	github = "isees"
-  # gitlab = "*"
-  # bitbucket = "*"
-  # stackoverflow = "*"
-  # serverfault = "*"
-
-  # Gaming
-  # steam = "*"
-  # mobygames = "*"
-
-  # Music
-  # lastfm = "*"
-  # discogs = "*"
-
-  # Other
-  # keybase = "*"
+# 保留 [outputs] 配置
+[outputs]
+  page = ["HTML", "RSS"]

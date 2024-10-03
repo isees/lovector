@@ -1,3 +1,53 @@
-.DS_Store
+# Hugo default output directory
+/public/
 
-public/
+# Hugo generated files
+.hugo_build.lock
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor directories and files
+.idea
+.vscode
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# Node modules (if you're using any Node.js based tools)
+node_modules/
+
+# Other common ignore patterns
+*.bak
+*.tmp
+*.temp
+
+# Ignore the debug binary if you're on Go
+debug
+
+# Ignore the executable
+lovector
+
+# Ignore the deploy script (if it contains sensitive information)
+deploy.sh
+
+# Ignore local config files that shouldn't be in version control
+config.toml
+
+# Keep example config
+!config.toml.example
+
+resources/
