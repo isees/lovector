@@ -42,7 +42,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: recursive
+          submodules: true  # 获取 Hugo 主题（true OR recursive）
+          fetch-depth: 0    # 获取所有历史记录和标签
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
@@ -56,6 +57,10 @@ jobs:
           hugo \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
+          echo "Copying theme assets:"
+          cp -r themes/hugo-book/assets/* public/
+          echo "Listing generated files:"
+          ls -R public
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
